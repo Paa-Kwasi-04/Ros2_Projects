@@ -1,0 +1,35 @@
+[6.106s] Invoking command in '/home/paakwasi/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/paakwasi/ros2_ws/build/my_robot_controller/build
+[7.910s] running develop
+[8.605s] Removing /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[8.913s] Invoked command in '/home/paakwasi/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/paakwasi/ros2_ws/build/my_robot_controller/build
+[8.935s] Invoking command in '/home/paakwasi/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force
+[10.308s] running egg_info
+[10.308s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[10.309s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[10.346s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[10.354s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[10.354s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[10.383s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[10.398s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[10.412s] running build
+[10.412s] running build_py
+[10.412s] copying my_robot_controller/dual_timer_logger.py -> /home/paakwasi/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[10.412s] copying my_robot_controller/my_first_node.py -> /home/paakwasi/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[10.412s] running install
+[10.412s] running install_lib
+[10.426s] creating /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[10.430s] copying /home/paakwasi/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[10.440s] copying /home/paakwasi/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/dual_timer_logger.py -> /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[10.440s] copying /home/paakwasi/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[10.440s] byte-compiling /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[10.445s] byte-compiling /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/dual_timer_logger.py to dual_timer_logger.cpython-310.pyc
+[10.446s] byte-compiling /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[10.446s] running install_data
+[10.446s] copying resource/my_robot_controller -> /home/paakwasi/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[10.470s] copying package.xml -> /home/paakwasi/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[10.500s] running install_egg_info
+[10.528s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[10.531s] running install_scripts
+[10.717s] Installing test_node script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[10.717s] writing list of installed files to '/home/paakwasi/ros2_ws/build/my_robot_controller/install.log'
+[10.839s] Invoked command in '/home/paakwasi/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,11 @@
+[console_scripts]
+circle = my_robot_controller.draw_circle:main
+dual_timer = my_robot_controller.dual_timer_logger:main
+joy_stick = my_robot_controller.joy_stick:main
+light_sensor = my_robot_controller.light_sensor_node:main
+smart_light = my_robot_controller.smart_light_node:main
+test_node = my_robot_controller.my_first_node:main
+turtle_control = my_robot_controller.Sub_Pub_Loop:main
+turtle_joystick = my_robot_controller.turtle_joystick:main
+turtle_pos = my_robot_controller.turtle_position:main
+
