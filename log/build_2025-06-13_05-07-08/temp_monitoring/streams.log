@@ -1,0 +1,33 @@
+[0.955s] Invoking command in '/home/paakwasi/ros2_ws/src/temp_monitoring': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/build/temp_monitoring/install.log --single-version-externally-managed install_data
+[1.156s] running egg_info
+[1.157s] creating ../../build/temp_monitoring/temp_monitoring.egg-info
+[1.157s] writing ../../build/temp_monitoring/temp_monitoring.egg-info/PKG-INFO
+[1.157s] writing dependency_links to ../../build/temp_monitoring/temp_monitoring.egg-info/dependency_links.txt
+[1.157s] writing entry points to ../../build/temp_monitoring/temp_monitoring.egg-info/entry_points.txt
+[1.157s] writing requirements to ../../build/temp_monitoring/temp_monitoring.egg-info/requires.txt
+[1.157s] writing top-level names to ../../build/temp_monitoring/temp_monitoring.egg-info/top_level.txt
+[1.157s] writing manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[1.160s] reading manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[1.161s] writing manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[1.161s] running build
+[1.162s] running build_py
+[1.162s] creating /home/paakwasi/ros2_ws/build/temp_monitoring/build
+[1.162s] creating /home/paakwasi/ros2_ws/build/temp_monitoring/build/lib
+[1.162s] creating /home/paakwasi/ros2_ws/build/temp_monitoring/build/lib/temp_monitoring
+[1.162s] copying temp_monitoring/__init__.py -> /home/paakwasi/ros2_ws/build/temp_monitoring/build/lib/temp_monitoring
+[1.162s] running install
+[1.162s] running install_lib
+[1.162s] creating /home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring
+[1.162s] copying /home/paakwasi/ros2_ws/build/temp_monitoring/build/lib/temp_monitoring/__init__.py -> /home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring
+[1.163s] byte-compiling /home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring/__init__.py to __init__.cpython-310.pyc
+[1.163s] running install_data
+[1.163s] creating /home/paakwasi/ros2_ws/install/temp_monitoring/share/ament_index
+[1.164s] creating /home/paakwasi/ros2_ws/install/temp_monitoring/share/ament_index/resource_index
+[1.164s] creating /home/paakwasi/ros2_ws/install/temp_monitoring/share/ament_index/resource_index/packages
+[1.165s] copying resource/temp_monitoring -> /home/paakwasi/ros2_ws/install/temp_monitoring/share/ament_index/resource_index/packages
+[1.166s] copying package.xml -> /home/paakwasi/ros2_ws/install/temp_monitoring/share/temp_monitoring
+[1.166s] running install_egg_info
+[1.167s] Copying ../../build/temp_monitoring/temp_monitoring.egg-info to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info
+[1.169s] running install_scripts
+[1.205s] writing list of installed files to '/home/paakwasi/ros2_ws/build/temp_monitoring/install.log'
+[1.227s] Invoked command in '/home/paakwasi/ros2_ws/src/temp_monitoring' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/build/temp_monitoring/install.log --single-version-externally-managed install_data

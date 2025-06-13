@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.014355] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.014429] (temp_monitoring) JobQueued: {'identifier': 'temp_monitoring', 'dependencies': OrderedDict()}
+[0.014462] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.097955] (-) TimerEvent: {}
+[0.200996] (-) TimerEvent: {}
+[0.421166] (temp_monitoring) JobStarted: {'identifier': 'temp_monitoring'}
+[0.421302] (-) TimerEvent: {}
+[0.584240] (-) TimerEvent: {}
+[0.702780] (-) TimerEvent: {}
+[0.810465] (-) TimerEvent: {}
+[0.923276] (-) TimerEvent: {}
+[1.034209] (-) TimerEvent: {}
+[1.146640] (-) TimerEvent: {}
+[1.258089] (-) TimerEvent: {}
+[1.363773] (-) TimerEvent: {}
+[1.465813] (-) TimerEvent: {}
+[1.567244] (-) TimerEvent: {}
+[1.671419] (-) TimerEvent: {}
+[1.773200] (-) TimerEvent: {}
+[1.875871] (-) TimerEvent: {}
+[1.977131] (-) TimerEvent: {}
+[2.084930] (-) TimerEvent: {}
+[2.192646] (-) TimerEvent: {}
+[2.313817] (-) TimerEvent: {}
+[2.435491] (-) TimerEvent: {}
+[2.571860] (-) TimerEvent: {}
+[2.676726] (-) TimerEvent: {}
+[2.787475] (-) TimerEvent: {}
+[2.899817] (-) TimerEvent: {}
+[3.016104] (-) TimerEvent: {}
+[3.117381] (-) TimerEvent: {}
+[3.223606] (-) TimerEvent: {}
+[3.330024] (-) TimerEvent: {}
+[3.439290] (-) TimerEvent: {}
+[3.559664] (-) TimerEvent: {}
+[3.661125] (-) TimerEvent: {}
+[3.764812] (-) TimerEvent: {}
+[3.874938] (-) TimerEvent: {}
+[3.977279] (-) TimerEvent: {}
+[4.089947] (-) TimerEvent: {}
+[4.191284] (-) TimerEvent: {}
+[4.292025] (-) TimerEvent: {}
+[4.393431] (-) TimerEvent: {}
+[4.495301] (-) TimerEvent: {}
+[4.601737] (-) TimerEvent: {}
+[4.707744] (-) TimerEvent: {}
+[4.813186] (-) TimerEvent: {}
+[4.916976] (-) TimerEvent: {}
+[5.018586] (-) TimerEvent: {}
+[5.147401] (-) TimerEvent: {}
+[5.253515] (-) TimerEvent: {}
+[5.359633] (-) TimerEvent: {}
+[5.474689] (-) TimerEvent: {}
+[5.585618] (-) TimerEvent: {}
+[5.690939] (-) TimerEvent: {}
+[5.794332] (-) TimerEvent: {}
+[5.910908] (-) TimerEvent: {}
+[6.016972] (-) TimerEvent: {}
+[6.151034] (-) TimerEvent: {}
+[6.255746] (-) TimerEvent: {}
+[6.361738] (-) TimerEvent: {}
+[6.474296] (-) TimerEvent: {}
+[6.588472] (-) TimerEvent: {}
+[6.698386] (-) TimerEvent: {}
+[6.813289] (-) TimerEvent: {}
+[6.920284] (-) TimerEvent: {}
+[7.040031] (-) TimerEvent: {}
+[7.145689] (-) TimerEvent: {}
+[7.259220] (-) TimerEvent: {}
+[7.371829] (-) TimerEvent: {}
+[7.486589] (-) TimerEvent: {}
+[7.592913] (-) TimerEvent: {}
+[7.695468] (-) TimerEvent: {}
+[7.800287] (-) TimerEvent: {}
+[7.907080] (-) TimerEvent: {}
+[8.007968] (-) TimerEvent: {}
+[8.109022] (-) TimerEvent: {}
+[8.210879] (-) TimerEvent: {}
+[8.314504] (-) TimerEvent: {}
+[8.417178] (-) TimerEvent: {}
+[8.541910] (-) TimerEvent: {}
+[8.643522] (-) TimerEvent: {}
+[8.748213] (-) TimerEvent: {}
+[8.855112] (-) TimerEvent: {}
+[8.960056] (-) TimerEvent: {}
+[9.063317] (-) TimerEvent: {}
+[9.193224] (-) TimerEvent: {}
+[9.295933] (-) TimerEvent: {}
+[9.401721] (-) TimerEvent: {}
+[9.503038] (-) TimerEvent: {}
+[9.633305] (-) TimerEvent: {}
+[9.747295] (-) TimerEvent: {}
+[9.854327] (-) TimerEvent: {}
+[9.959637] (-) TimerEvent: {}
+[9.977968] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/paakwasi/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/paakwasi/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paakwasi/ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paakwasi', 'LC_TIME': 'ak_GH', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/paakwasi', 'OLDPWD': '/home/paakwasi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ak_GH', 'SYSTEMD_EXEC_PID': '1845', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/paakwasi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paakwasi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'paakwasi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1618,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1618', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ak_GH', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/805d0d0d_729e_42f7_9570_170032e1c6af', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ak_GH', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZZN772', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ak_GH', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ak_GH', 'LC_IDENTIFICATION': 'ak_GH', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/paakwasi/ros2_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ak_GH', 'LC_PAPER': 'ak_GH', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.079962] (-) TimerEvent: {}
+[10.138308] (temp_monitoring) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/temp_monitoring', 'build', '--build-base', '/home/paakwasi/ros2_ws/build/temp_monitoring/build', 'install', '--record', '/home/paakwasi/ros2_ws/build/temp_monitoring/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paakwasi/ros2_ws/src/temp_monitoring', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paakwasi', 'LC_TIME': 'ak_GH', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/paakwasi', 'OLDPWD': '/home/paakwasi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ak_GH', 'SYSTEMD_EXEC_PID': '1845', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/paakwasi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paakwasi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'paakwasi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1618,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1618', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ak_GH', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/805d0d0d_729e_42f7_9570_170032e1c6af', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ak_GH', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZZN772', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ak_GH', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ak_GH', 'LC_IDENTIFICATION': 'ak_GH', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/paakwasi/ros2_ws/build/temp_monitoring', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paakwasi/ros2_ws/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ak_GH', 'LC_PAPER': 'ak_GH', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[10.281426] (-) TimerEvent: {}
+[10.389332] (-) TimerEvent: {}
+[10.498406] (-) TimerEvent: {}
+[10.604702] (-) TimerEvent: {}
+[10.713315] (-) TimerEvent: {}
+[10.814101] (-) TimerEvent: {}
+[10.923153] (-) TimerEvent: {}
+[11.036909] (-) TimerEvent: {}
+[11.140822] (-) TimerEvent: {}
+[11.167957] (temp_monitoring) StdoutLine: {'line': b'running egg_info\n'}
+[11.168267] (temp_monitoring) StdoutLine: {'line': b'writing ../../build/temp_monitoring/temp_monitoring.egg-info/PKG-INFO\n'}
+[11.211862] (temp_monitoring) StdoutLine: {'line': b'writing dependency_links to ../../build/temp_monitoring/temp_monitoring.egg-info/dependency_links.txt\n'}
+[11.227286] (temp_monitoring) StdoutLine: {'line': b'writing entry points to ../../build/temp_monitoring/temp_monitoring.egg-info/entry_points.txt\n'}
+[11.227555] (temp_monitoring) StdoutLine: {'line': b'writing requirements to ../../build/temp_monitoring/temp_monitoring.egg-info/requires.txt\n'}
+[11.242023] (-) TimerEvent: {}
+[11.251801] (temp_monitoring) StdoutLine: {'line': b'writing top-level names to ../../build/temp_monitoring/temp_monitoring.egg-info/top_level.txt\n'}
+[11.268151] (temp_monitoring) StdoutLine: {'line': b"reading manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'\n"}
+[11.283757] (temp_monitoring) StdoutLine: {'line': b"writing manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'\n"}
+[11.284034] (temp_monitoring) StdoutLine: {'line': b'running build\n'}
+[11.284154] (temp_monitoring) StdoutLine: {'line': b'running build_py\n'}
+[11.310654] (temp_monitoring) StdoutLine: {'line': b'running install\n'}
+[11.310826] (temp_monitoring) StdoutLine: {'line': b'running install_lib\n'}
+[11.320901] (temp_monitoring) StdoutLine: {'line': b'running install_data\n'}
+[11.324740] (temp_monitoring) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.346798] (temp_monitoring) StdoutLine: {'line': b"removing '/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.347036] (-) TimerEvent: {}
+[11.369290] (temp_monitoring) StdoutLine: {'line': b'Copying ../../build/temp_monitoring/temp_monitoring.egg-info to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info\n'}
+[11.399662] (temp_monitoring) StdoutLine: {'line': b'running install_scripts\n'}
+[11.453388] (-) TimerEvent: {}
+[11.483684] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[11.495047] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[11.496791] (temp_monitoring) StdoutLine: {'line': b'Installing cooling_node script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring\n'}
+[11.501314] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[11.517219] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[11.519264] (temp_monitoring) StdoutLine: {'line': b'Installing monitor_node script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring\n'}
+[11.523550] (temp_monitoring) StdoutLine: {'line': b'Installing temp_sensor script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring\n'}
+[11.523774] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[11.539581] (temp_monitoring) StdoutLine: {'line': b"writing list of installed files to '/home/paakwasi/ros2_ws/build/temp_monitoring/install.log'\n"}
+[11.560153] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[11.560305] (-) TimerEvent: {}
+[11.581674] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[11.605642] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[11.605796] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[11.605841] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[11.633476] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[11.636451] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[11.662786] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[11.663182] (-) TimerEvent: {}
+[11.702361] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.708844] (my_robot_controller) StdoutLine: {'line': b"removing '/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.708905] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[11.721078] (temp_monitoring) CommandEnded: {'returncode': 0}
+[11.767597] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[11.767783] (-) TimerEvent: {}
+[11.803516] (my_robot_controller) StdoutLine: {'line': b'Installing circle script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.856437] (my_robot_controller) StdoutLine: {'line': b'Installing dual_timer script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.856644] (my_robot_controller) StdoutLine: {'line': b'Installing joy_stick script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.862817] (my_robot_controller) StdoutLine: {'line': b'Installing light_sensor script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.869433] (-) TimerEvent: {}
+[11.869563] (my_robot_controller) StdoutLine: {'line': b'Installing service_client script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.896300] (my_robot_controller) StdoutLine: {'line': b'Installing smart_light script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.896530] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.896630] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_control script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.896722] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_joystick script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.919164] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_pos script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[11.919332] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/paakwasi/ros2_ws/build/my_robot_controller/install.log'\n"}
+[11.991067] (-) TimerEvent: {}
+[12.099581] (-) TimerEvent: {}
+[12.168972] (temp_monitoring) JobEnded: {'identifier': 'temp_monitoring', 'rc': 0}
+[12.194122] (my_robot_controller) CommandEnded: {'returncode': 0}
+[12.216236] (-) TimerEvent: {}
+[12.289077] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[12.322361] (-) TimerEvent: {}
+[12.327937] (-) EventReactorShutdown: {}

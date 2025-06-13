@@ -4,6 +4,7 @@
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/joy_stick.py
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/smart_light_node.py
+/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/Service_client.py
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/Sub_Pub_Loop.py
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_position.py
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/light_sensor_node.py
@@ -14,6 +15,7 @@
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/joy_stick.cpython-310.pyc
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/draw_circle.cpython-310.pyc
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/smart_light_node.cpython-310.pyc
+/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/Service_client.cpython-310.pyc
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/Sub_Pub_Loop.cpython-310.pyc
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/turtle_position.cpython-310.pyc
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__pycache__/light_sensor_node.cpython-310.pyc
@@ -31,6 +33,7 @@
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller/dual_timer
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller/joy_stick
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller/light_sensor
+/home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller/service_client
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller/smart_light
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller/test_node
 /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller/turtle_control

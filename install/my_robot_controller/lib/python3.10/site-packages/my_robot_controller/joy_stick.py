@@ -34,7 +34,7 @@ class JoyStickController(Node):
             self.joy_stick_name = sdl2.SDL_JoystickName(self.joystick).decode()
             self.get_logger().info(f'Opened joystick: {self.joy_stick_name}')
 
-        self.create_timer(0.05,self.joy_stick_control)
+        self.create_timer(0.02,self.joy_stick_control)
 
 
     def joy_stick_control(self):
@@ -61,6 +61,12 @@ class JoyStickController(Node):
 
         self.joy_publish.publish(msg)
 
+    def destroy_node(self):
+        if self.joystick:
+            sdl2.SDL_JoystickClose(self.joystick)
+        sdl2.ext.quit()
+        super().destroy_node()
+
 
 
 
@@ -70,9 +76,11 @@ class JoyStickController(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = JoyStickController()
-    rclpy.spin(node)
-    
-    rclpy.shutdown()
+    try:
+       rclpy.spin(node)
+    finally: 
+        node.destroy_node()   
+        rclpy.shutdown()
 
 
 if __name__ == '__main__':

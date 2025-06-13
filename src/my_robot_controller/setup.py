@@ -28,7 +28,8 @@ setup(
             'light_sensor = my_robot_controller.light_sensor_node:main',
             'smart_light = my_robot_controller.smart_light_node:main',
             'joy_stick = my_robot_controller.joy_stick:main',
-            'turtle_joystick = my_robot_controller.turtle_joystick:main'
+            'turtle_joystick = my_robot_controller.turtle_joystick:main',
+            'service_client = my_robot_controller.Service_client:main'
 
 
         ],

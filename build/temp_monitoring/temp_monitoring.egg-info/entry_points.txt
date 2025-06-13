@@ -1,0 +1,5 @@
+[console_scripts]
+cooling_node = temp_monitoring.cooling_node_service:main
+monitor_node = temp_monitoring.monitor_node:main
+temp_sensor = temp_monitoring.temp_sensor_node:main
+
