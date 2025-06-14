@@ -2,3 +2,7 @@ srv/AnalyzeNumber.idl
 srv/AnalyzeNumber.srv
 srv/AnalyzeNumber_Request.msg
 srv/AnalyzeNumber_Response.msg
+srv/ReturnToBase.idl
+srv/ReturnToBase.srv
+srv/ReturnToBase_Request.msg
+srv/ReturnToBase_Response.msg

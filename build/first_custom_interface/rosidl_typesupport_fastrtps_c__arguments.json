@@ -3,7 +3,8 @@
   "output_dir": "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_typesupport_fastrtps_c/first_custom_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface:srv/AnalyzeNumber.idl"
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface:srv/AnalyzeNumber.idl",
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface:srv/ReturnToBase.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
@@ -14,6 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface/srv/AnalyzeNumber.idl"
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface/srv/AnalyzeNumber.idl",
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface/srv/ReturnToBase.idl"
   ]
 }

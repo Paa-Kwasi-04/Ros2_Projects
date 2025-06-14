@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from first_custom_interface/srv/ReturnToBase.srv
+// generated code does not contain a copyright notice
+
+
+module first_custom_interface {
+  module srv {
+    struct ReturnToBase_Request {
+      float x;
+
+      float y;
+    };
+    struct ReturnToBase_Response {
+      boolean accepted;
+    };
+  };
+};

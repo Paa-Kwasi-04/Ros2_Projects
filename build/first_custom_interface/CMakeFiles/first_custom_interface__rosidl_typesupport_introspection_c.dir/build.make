@@ -78,11 +78,18 @@ rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_num
 rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h: rosidl_adapter/first_custom_interface/srv/AnalyzeNumber.idl
+rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h: rosidl_adapter/first_custom_interface/srv/ReturnToBase.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c
+
+rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c
 
 CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.o: CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.o: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c
@@ -98,21 +105,37 @@ CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c -o CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.s
 
+CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o: CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c
+CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o: CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o -MF CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o.d -o CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o -c /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c
+
+CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c > CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.i
+
+CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c -o CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.s
+
 # Object files for target first_custom_interface__rosidl_typesupport_introspection_c
 first_custom_interface__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.o"
+"CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.o" \
+"CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o"
 
 # External object files for target first_custom_interface__rosidl_typesupport_introspection_c
 first_custom_interface__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libfirst_custom_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.o
+libfirst_custom_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c.o
 libfirst_custom_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/build.make
 libfirst_custom_interface__rosidl_typesupport_introspection_c.so: libfirst_custom_interface__rosidl_generator_c.so
 libfirst_custom_interface__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libfirst_custom_interface__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libfirst_custom_interface__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libfirst_custom_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libfirst_custom_interface__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libfirst_custom_interface__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +148,8 @@ CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h
 CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c
+CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__rosidl_typesupport_introspection_c.h
+CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/return_to_base__type_support.c
 	cd /home/paakwasi/ros2_ws/build/first_custom_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paakwasi/ros2_ws/src/first_custom_interface /home/paakwasi/ros2_ws/src/first_custom_interface /home/paakwasi/ros2_ws/build/first_custom_interface /home/paakwasi/ros2_ws/build/first_custom_interface /home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/depend
 

@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/analyze_number__type_support.cpp.o"
   "CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/analyze_number__type_support.cpp.o.d"
+  "CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/return_to_base__type_support.cpp.o"
+  "CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/return_to_base__type_support.cpp.o.d"
   "libfirst_custom_interface__rosidl_typesupport_introspection_cpp.pdb"
   "libfirst_custom_interface__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/analyze_number__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/return_to_base__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/return_to_base__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

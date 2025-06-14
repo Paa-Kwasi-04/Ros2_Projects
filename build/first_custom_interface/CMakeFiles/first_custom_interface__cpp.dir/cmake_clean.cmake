@@ -5,6 +5,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__struct.hpp"
   "rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__traits.hpp"
   "rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__type_support.hpp"
+  "rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__builder.hpp"
+  "rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__struct.hpp"
+  "rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__traits.hpp"
+  "rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__type_support.hpp"
+  "rosidl_generator_cpp/first_custom_interface/srv/return_to_base.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

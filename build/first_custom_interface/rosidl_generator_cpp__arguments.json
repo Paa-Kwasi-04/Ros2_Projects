@@ -3,7 +3,8 @@
   "output_dir": "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_generator_cpp/first_custom_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface:srv/AnalyzeNumber.idl"
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface:srv/AnalyzeNumber.idl",
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface:srv/ReturnToBase.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
@@ -21,6 +22,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface/srv/AnalyzeNumber.idl"
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface/srv/AnalyzeNumber.idl",
+    "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface/srv/ReturnToBase.idl"
   ]
 }

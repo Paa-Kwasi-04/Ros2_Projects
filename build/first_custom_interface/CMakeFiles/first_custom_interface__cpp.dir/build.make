@@ -71,6 +71,11 @@ CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interf
 CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__struct.hpp
 CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__traits.hpp
 CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__type_support.hpp
+CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/return_to_base.hpp
+CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__builder.hpp
+CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__struct.hpp
+CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__traits.hpp
+CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__type_support.hpp
 CMakeFiles/first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp: /opt/ros/hum
 rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp: rosidl_adapter/first_custom_interface/srv/AnalyzeNumber.idl
+rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp: rosidl_adapter/first_custom_interface/srv/ReturnToBase.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_generator_cpp__arguments.json
 
@@ -104,12 +110,32 @@ rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__traits.hp
 rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__type_support.hpp: rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__type_support.hpp
 
+rosidl_generator_cpp/first_custom_interface/srv/return_to_base.hpp: rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/first_custom_interface/srv/return_to_base.hpp
+
+rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__builder.hpp: rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__builder.hpp
+
+rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__struct.hpp: rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__struct.hpp
+
+rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__traits.hpp: rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__traits.hpp
+
+rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__type_support.hpp: rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__type_support.hpp
+
 first_custom_interface__cpp: CMakeFiles/first_custom_interface__cpp
 first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/analyze_number.hpp
 first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__builder.hpp
 first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__struct.hpp
 first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__traits.hpp
 first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/analyze_number__type_support.hpp
+first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__builder.hpp
+first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__struct.hpp
+first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__traits.hpp
+first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/detail/return_to_base__type_support.hpp
+first_custom_interface__cpp: rosidl_generator_cpp/first_custom_interface/srv/return_to_base.hpp
 first_custom_interface__cpp: CMakeFiles/first_custom_interface__cpp.dir/build.make
 .PHONY : first_custom_interface__cpp
 

@@ -360,6 +360,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_custom_interface/srv" TYPE FILE FILES "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_adapter/first_custom_interface/srv/ReturnToBase.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_custom_interface/srv" TYPE FILE FILES "/home/paakwasi/ros2_ws/src/first_custom_interface/srv/AnalyzeNumber.srv")
 endif()
 
@@ -369,6 +373,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_custom_interface/srv" TYPE FILE FILES "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_cmake/srv/AnalyzeNumber_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_custom_interface/srv" TYPE FILE FILES "/home/paakwasi/ros2_ws/src/first_custom_interface/srv/ReturnToBase.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_custom_interface/srv" TYPE FILE FILES "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_cmake/srv/ReturnToBase_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/first_custom_interface/srv" TYPE FILE FILES "/home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_cmake/srv/ReturnToBase_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

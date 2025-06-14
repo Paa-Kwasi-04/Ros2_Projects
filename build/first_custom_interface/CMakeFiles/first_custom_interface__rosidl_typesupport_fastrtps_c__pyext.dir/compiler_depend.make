@@ -247,8 +247,13 @@ CMakeFiles/first_custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosi
   rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.h
+  rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.h \
+  rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__type_support.h \
+  rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__struct.h \
+  rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.h
 
+
+rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -257,6 +262,8 @@ rosidl_generator_c/first_custom_interface/msg/rosidl_generator_c__visibility_con
 rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__type_support.h:
 
 /usr/include/python3.10/fileutils.h:
+
+rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__type_support.h:
 
 /usr/include/python3.10/pystrcmp.h:
 
@@ -367,6 +374,8 @@ rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.h
 /usr/include/python3.10/cpython/pystate.h:
 
 /usr/include/python3.10/cpython/bytearrayobject.h:
+
+rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.h:
 
 /usr/include/python3.10/bytearrayobject.h:
 

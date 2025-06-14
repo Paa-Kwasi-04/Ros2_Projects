@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/turtle_robot/turtle_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_robot/turtle_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_robot/turtle_robot.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_robot/turtle_robot.egg-info/requires.txt
+writing top-level names to ../../build/turtle_robot/turtle_robot.egg-info/top_level.txt
+reading manifest file '../../build/turtle_robot/turtle_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_robot/turtle_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+Sorry: IndentationError: expected an indented block after function definition on line 16 (navigation_service_node.py, line 36)
+copying turtle_robot/navigation_service_node.py -> /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot
+copying turtle_robot/status_publisher_node.py -> /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot
+copying turtle_robot/turtle_moving.py -> /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot
+copying turtle_robot/mission_control_node.py -> /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot
+running install
+running install_lib
+copying /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot/navigation_service_node.py -> /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot
+copying /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot/status_publisher_node.py -> /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot
+copying /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot/turtle_moving.py -> /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot
+copying /home/paakwasi/ros2_ws/build/turtle_robot/build/lib/turtle_robot/mission_control_node.py -> /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot
+byte-compiling /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot/navigation_service_node.py to navigation_service_node.cpython-310.pyc
+byte-compiling /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot/status_publisher_node.py to status_publisher_node.cpython-310.pyc
+byte-compiling /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot/turtle_moving.py to turtle_moving.cpython-310.pyc
+byte-compiling /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot/mission_control_node.py to mission_control_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/turtle_robot/turtle_robot.egg-info to /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/paakwasi/ros2_ws/build/turtle_robot/install.log'

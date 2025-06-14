@@ -83,6 +83,7 @@ rosidl_generator_c/first_custom_interface/srv/analyze_number.h: /opt/ros/humble/
 rosidl_generator_c/first_custom_interface/srv/analyze_number.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/first_custom_interface/srv/analyze_number.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/first_custom_interface/srv/analyze_number.h: rosidl_adapter/first_custom_interface/srv/AnalyzeNumber.idl
+rosidl_generator_c/first_custom_interface/srv/analyze_number.h: rosidl_adapter/first_custom_interface/srv/ReturnToBase.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_generator_c__arguments.json
 
@@ -95,8 +96,23 @@ rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__struct.h: r
 rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__type_support.h: rosidl_generator_c/first_custom_interface/srv/analyze_number.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__type_support.h
 
+rosidl_generator_c/first_custom_interface/srv/return_to_base.h: rosidl_generator_c/first_custom_interface/srv/analyze_number.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/first_custom_interface/srv/return_to_base.h
+
+rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.h: rosidl_generator_c/first_custom_interface/srv/analyze_number.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.h
+
+rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__struct.h: rosidl_generator_c/first_custom_interface/srv/analyze_number.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__struct.h
+
+rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__type_support.h: rosidl_generator_c/first_custom_interface/srv/analyze_number.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__type_support.h
+
 rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c: rosidl_generator_c/first_custom_interface/srv/analyze_number.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c
+
+rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c: rosidl_generator_c/first_custom_interface/srv/analyze_number.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c
 
 CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.o: CMakeFiles/first_custom_interface__rosidl_generator_c.dir/flags.make
 CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.o: rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c
@@ -112,19 +128,35 @@ CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/fir
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c -o CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.s
 
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o: CMakeFiles/first_custom_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o: rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o: CMakeFiles/first_custom_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o -MF CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o.d -o CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o -c /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c
+
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c > CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.i
+
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/paakwasi/ros2_ws/build/first_custom_interface/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c -o CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.s
+
 # Object files for target first_custom_interface__rosidl_generator_c
 first_custom_interface__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.o"
+"CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.o" \
+"CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o"
 
 # External object files for target first_custom_interface__rosidl_generator_c
 first_custom_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libfirst_custom_interface__rosidl_generator_c.so: CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.o
+libfirst_custom_interface__rosidl_generator_c.so: CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c.o
 libfirst_custom_interface__rosidl_generator_c.so: CMakeFiles/first_custom_interface__rosidl_generator_c.dir/build.make
 libfirst_custom_interface__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libfirst_custom_interface__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libfirst_custom_interface__rosidl_generator_c.so: CMakeFiles/first_custom_interface__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libfirst_custom_interface__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libfirst_custom_interface__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/first_custom_interface__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +172,11 @@ CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generat
 CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.h
 CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__struct.h
 CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__type_support.h
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.c
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__functions.h
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__struct.h
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/detail/return_to_base__type_support.h
+CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/first_custom_interface/srv/return_to_base.h
 	cd /home/paakwasi/ros2_ws/build/first_custom_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paakwasi/ros2_ws/src/first_custom_interface /home/paakwasi/ros2_ws/src/first_custom_interface /home/paakwasi/ros2_ws/build/first_custom_interface /home/paakwasi/ros2_ws/build/first_custom_interface /home/paakwasi/ros2_ws/build/first_custom_interface/CMakeFiles/first_custom_interface__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/first_custom_interface__rosidl_generator_c.dir/depend
 
