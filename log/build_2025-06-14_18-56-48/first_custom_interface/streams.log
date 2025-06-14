@@ -1,0 +1,151 @@
+[0.408s] Invoking command in '/home/paakwasi/ros2_ws/build/first_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/paakwasi/ros2_ws/build/first_custom_interface -- -j10 -l10
+[4.692s] [  3%] Built target first_custom_interface__cpp
+[4.796s] [ 12%] Built target first_custom_interface__rosidl_generator_c
+[4.829s] [ 12%] Built target ament_cmake_python_copy_first_custom_interface
+[4.829s] [ 22%] Built target first_custom_interface__rosidl_typesupport_fastrtps_cpp
+[4.829s] [ 32%] Built target first_custom_interface__rosidl_typesupport_c
+[4.829s] [ 41%] Built target first_custom_interface__rosidl_typesupport_introspection_c
+[4.829s] [ 51%] Built target first_custom_interface__rosidl_typesupport_introspection_cpp
+[4.829s] [ 61%] Built target first_custom_interface__rosidl_typesupport_fastrtps_c
+[4.829s] [ 70%] Built target first_custom_interface__rosidl_typesupport_cpp
+[4.829s] [ 70%] Built target first_custom_interface
+[4.829s] [ 74%] Built target first_custom_interface__py
+[4.829s] [ 80%] Built target first_custom_interface__rosidl_generator_py
+[4.829s] running egg_info
+[4.829s] writing first_custom_interface.egg-info/PKG-INFO
+[4.829s] writing dependency_links to first_custom_interface.egg-info/dependency_links.txt
+[4.829s] writing top-level names to first_custom_interface.egg-info/top_level.txt
+[4.829s] reading manifest file 'first_custom_interface.egg-info/SOURCES.txt'
+[4.829s] writing manifest file 'first_custom_interface.egg-info/SOURCES.txt'
+[4.829s] [ 87%] Built target first_custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.829s] [ 93%] Built target first_custom_interface__rosidl_typesupport_introspection_c__pyext
+[4.829s] [100%] Built target first_custom_interface__rosidl_typesupport_c__pyext
+[4.830s] [100%] Built target ament_cmake_python_build_first_custom_interface_egg
+[4.831s] Invoked command in '/home/paakwasi/ros2_ws/build/first_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/paakwasi/ros2_ws/build/first_custom_interface -- -j10 -l10
+[4.923s] Invoking command in '/home/paakwasi/ros2_ws/build/first_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/paakwasi/ros2_ws/build/first_custom_interface
+[5.080s] -- Install configuration: ""
+[5.089s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/rosidl_interfaces/first_custom_interface
+[5.092s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface
+[5.095s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg
+[5.095s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_generator_c__visibility_control.h
+[5.095s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv
+[5.095s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail
+[5.095s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__struct.h
+[5.095s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__functions.c
+[5.097s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__functions.h
+[5.097s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.h
+[5.097s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/analyze_number.h
+[5.097s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/library_path.sh
+[5.099s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/library_path.dsv
+[5.099s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_generator_c.so
+[5.100s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface
+[5.100s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg
+[5.100s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.100s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv
+[5.100s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail
+[5.100s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_fastrtps_c.h
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_fastrtps_c.so
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.c
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_introspection_c.so
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_c.so
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__traits.hpp
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__struct.hpp
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.hpp
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__builder.hpp
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/analyze_number.hpp
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail
+[5.102s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_fastrtps_cpp.hpp
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/dds_fastrtps
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_cpp.hpp
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.cpp
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_introspection_cpp.so
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_cpp.so
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/pythonpath.sh
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/pythonpath.dsv
+[5.105s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info
+[5.105s] -- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/top_level.txt
+[5.105s] -- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.105s] -- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.105s] -- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/__init__.py
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_c.c
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/libfirst_custom_interface__rosidl_generator_py.so
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/__init__.py
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/_analyze_number_s.c
+[5.106s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/_analyze_number.py
+[5.437s] Listing '/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface'...
+[5.437s] Listing '/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv'...
+[5.465s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.496s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.496s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.496s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_generator_py.so
+[5.496s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber.idl
+[5.496s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber.srv
+[5.496s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber_Request.msg
+[5.496s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber_Response.msg
+[5.497s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/package_run_dependencies/first_custom_interface
+[5.497s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/parent_prefix_path/first_custom_interface
+[5.497s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/ament_prefix_path.sh
+[5.520s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/ament_prefix_path.dsv
+[5.520s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/path.sh
+[5.520s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/path.dsv
+[5.520s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.bash
+[5.522s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.sh
+[5.522s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.zsh
+[5.522s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.dsv
+[5.524s] -- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/package.dsv
+[5.524s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/packages/first_custom_interface
+[5.524s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_cExport.cmake
+[5.524s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_cExport-noconfig.cmake
+[5.524s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[5.524s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.533s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.533s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.534s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cExport.cmake
+[5.536s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[5.536s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_cppExport.cmake
+[5.536s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.536s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.536s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.536s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.536s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cppExport.cmake
+[5.547s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_pyExport.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_pyExport-noconfig.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/rosidl_cmake-extras.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interfaceConfig.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interfaceConfig-version.cmake
+[5.548s] -- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/package.xml
+[5.625s] Invoked command in '/home/paakwasi/ros2_ws/build/first_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/paakwasi/ros2_ws/build/first_custom_interface

@@ -22,13 +22,18 @@ class NumberAnalyzerNode(Node):
         request.number = num.data
 
         future = self.client_.call_async(request)
+        future.add_done_callback(self.handle_response)
 
-        if  future:
-            try:
-                future.result()
-                self.get_logger().info('Successful response')
-            except Exception as e:
-                self.get_logger().error(e)
+    def handle_response(self,future):
+
+        
+    
+        try:
+            response = future.result()
+            self.get_logger().info(f'Parity: {response.parity}, Sign:{response.sign}') 
+            # self.get_logger().info('Successful response')
+        except Exception as e:
+            self.get_logger().error(e)
 
 
 

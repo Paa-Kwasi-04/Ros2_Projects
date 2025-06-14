@@ -27,6 +27,9 @@ class AnalyzerNode(Node):
             else:
                 response.sign = 'zero'
 
+            
+        return response
+
 
 
 
