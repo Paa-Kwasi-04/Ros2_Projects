@@ -1,0 +1,23 @@
+[5.313s] Invoking command in '/home/paakwasi/ros2_ws/src/temp_monitoring': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/build/temp_monitoring/install.log --single-version-externally-managed install_data
+[6.512s] running egg_info
+[6.523s] writing ../../build/temp_monitoring/temp_monitoring.egg-info/PKG-INFO
+[6.523s] writing dependency_links to ../../build/temp_monitoring/temp_monitoring.egg-info/dependency_links.txt
+[6.562s] writing entry points to ../../build/temp_monitoring/temp_monitoring.egg-info/entry_points.txt
+[6.562s] writing requirements to ../../build/temp_monitoring/temp_monitoring.egg-info/requires.txt
+[6.562s] writing top-level names to ../../build/temp_monitoring/temp_monitoring.egg-info/top_level.txt
+[6.595s] reading manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[6.596s] writing manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[6.603s] running build
+[6.611s] running build_py
+[6.615s] running install
+[6.644s] running install_lib
+[6.644s] running install_data
+[6.644s] running install_egg_info
+[6.644s] removing '/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info' (and everything under it)
+[6.644s] Copying ../../build/temp_monitoring/temp_monitoring.egg-info to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info
+[6.662s] running install_scripts
+[6.806s] Installing cooling_node script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring
+[6.814s] Installing monitor_node script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring
+[6.814s] Installing temp_sensor script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring
+[6.831s] writing list of installed files to '/home/paakwasi/ros2_ws/build/temp_monitoring/install.log'
+[6.948s] Invoked command in '/home/paakwasi/ros2_ws/src/temp_monitoring' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/build/temp_monitoring/install.log --single-version-externally-managed install_data

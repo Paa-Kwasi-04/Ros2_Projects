@@ -1,0 +1,5 @@
+[console_scripts]
+client = number_analyzer.analysis_client_node:main
+publisher = number_analyzer.number_publisher_node:main
+server = number_analyzer.analysis_server_node:main
+

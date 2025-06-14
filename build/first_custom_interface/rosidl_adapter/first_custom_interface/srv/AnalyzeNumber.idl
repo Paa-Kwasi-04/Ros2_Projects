@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from first_custom_interface/srv/AnalyzeNumber.srv
+// generated code does not contain a copyright notice
+
+
+module first_custom_interface {
+  module srv {
+    struct AnalyzeNumber_Request {
+      int32 number;
+    };
+    struct AnalyzeNumber_Response {
+      @verbatim (language="comment", text=
+        "'even' or 'odd'")
+      string parity;
+
+      @verbatim (language="comment", text=
+        "'positive', 'negative', or 'zero'")
+      string sign;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "firt_custom_interface__py",
+		"source" : "/home/paakwasi/ros2_ws/build/firt_custom_interface/firt_custom_interface__py"
+	}
+}

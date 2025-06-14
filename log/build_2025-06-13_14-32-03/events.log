@@ -1,0 +1,567 @@
+[0.000000] (-) TimerEvent: {}
+[0.000771] (first_custom_interface) JobQueued: {'identifier': 'first_custom_interface', 'dependencies': OrderedDict()}
+[0.001067] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.001123] (number_analyzer) JobQueued: {'identifier': 'number_analyzer', 'dependencies': OrderedDict()}
+[0.001137] (temp_monitoring) JobQueued: {'identifier': 'temp_monitoring', 'dependencies': OrderedDict()}
+[0.001148] (first_custom_interface) JobStarted: {'identifier': 'first_custom_interface'}
+[0.007087] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.018477] (number_analyzer) JobStarted: {'identifier': 'number_analyzer'}
+[0.140027] (temp_monitoring) JobStarted: {'identifier': 'temp_monitoring'}
+[0.140164] (-) TimerEvent: {}
+[0.255305] (-) TimerEvent: {}
+[0.318192] (first_custom_interface) JobProgress: {'identifier': 'first_custom_interface', 'progress': 'cmake'}
+[0.328221] (first_custom_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/paakwasi/ros2_ws/src/first_custom_interface', '-DCMAKE_INSTALL_PREFIX=/home/paakwasi/ros2_ws/install/first_custom_interface'], 'cwd': '/home/paakwasi/ros2_ws/build/first_custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paakwasi'), ('LC_TIME', 'ak_GH'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/paakwasi/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/paakwasi/ros2_ws/install/firt_custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paakwasi'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/paakwasi/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/paakwasi/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ak_GH'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/195/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1809'), ('BUNDLED_DEBUGPY_PATH', '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paakwasi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paakwasi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'paakwasi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/paakwasi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1590,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1590'), ('GTK_EXE_PREFIX', '/snap/code/195/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ak_GH'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09528ae9_dfcd_49cc_9284_a3967218b091'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/195/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0881f380dc416149.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ak_GH'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/paakwasi/snap/code/195/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.142M72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-75d1b7e008.sock'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/paakwasi/snap/code/195/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ak_GH'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ak_GH'), ('LC_IDENTIFICATION', 'ak_GH'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paakwasi/ros2_ws/build/first_custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/paakwasi/snap/code/195/.local/share:/home/paakwasi/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/firt_custom_interface/local/lib/python3.10/dist-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ak_GH'), ('LC_PAPER', 'ak_GH'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.367803] (-) TimerEvent: {}
+[0.476035] (-) TimerEvent: {}
+[0.577446] (-) TimerEvent: {}
+[0.680827] (-) TimerEvent: {}
+[0.785294] (-) TimerEvent: {}
+[0.892754] (-) TimerEvent: {}
+[1.004194] (-) TimerEvent: {}
+[1.107109] (-) TimerEvent: {}
+[1.226860] (-) TimerEvent: {}
+[1.333986] (-) TimerEvent: {}
+[1.441396] (-) TimerEvent: {}
+[1.553753] (-) TimerEvent: {}
+[1.667112] (-) TimerEvent: {}
+[1.773356] (-) TimerEvent: {}
+[1.877494] (-) TimerEvent: {}
+[1.986559] (-) TimerEvent: {}
+[2.087746] (-) TimerEvent: {}
+[2.204839] (-) TimerEvent: {}
+[2.308860] (-) TimerEvent: {}
+[2.426384] (-) TimerEvent: {}
+[2.535269] (-) TimerEvent: {}
+[2.639674] (-) TimerEvent: {}
+[2.745373] (-) TimerEvent: {}
+[2.853483] (first_custom_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.867794] (-) TimerEvent: {}
+[2.871409] (first_custom_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.871520] (first_custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.871558] (first_custom_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.871592] (first_custom_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.871625] (first_custom_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.871658] (first_custom_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.871690] (first_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.871724] (first_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.871754] (first_custom_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.871785] (first_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.871813] (first_custom_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.871841] (first_custom_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.871871] (first_custom_interface) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[2.968505] (-) TimerEvent: {}
+[3.069158] (-) TimerEvent: {}
+[3.169932] (-) TimerEvent: {}
+[3.283420] (-) TimerEvent: {}
+[3.386382] (-) TimerEvent: {}
+[3.489999] (-) TimerEvent: {}
+[3.592505] (-) TimerEvent: {}
+[3.605599] (first_custom_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.693403] (-) TimerEvent: {}
+[3.797337] (-) TimerEvent: {}
+[3.901573] (-) TimerEvent: {}
+[3.917556] (first_custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.944011] (first_custom_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.010682] (-) TimerEvent: {}
+[4.146528] (-) TimerEvent: {}
+[4.283479] (-) TimerEvent: {}
+[4.416949] (first_custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.417329] (-) TimerEvent: {}
+[4.520746] (-) TimerEvent: {}
+[4.631538] (-) TimerEvent: {}
+[4.735541] (-) TimerEvent: {}
+[4.847771] (-) TimerEvent: {}
+[4.959633] (-) TimerEvent: {}
+[5.069718] (-) TimerEvent: {}
+[5.175740] (-) TimerEvent: {}
+[5.300394] (-) TimerEvent: {}
+[5.422436] (-) TimerEvent: {}
+[5.525454] (-) TimerEvent: {}
+[5.630917] (-) TimerEvent: {}
+[5.737948] (-) TimerEvent: {}
+[5.839536] (-) TimerEvent: {}
+[5.940709] (-) TimerEvent: {}
+[6.057490] (temp_monitoring) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/temp_monitoring', 'build', '--build-base', '/home/paakwasi/ros2_ws/build/temp_monitoring/build', 'install', '--record', '/home/paakwasi/ros2_ws/build/temp_monitoring/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paakwasi/ros2_ws/src/temp_monitoring', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paakwasi', 'LC_TIME': 'ak_GH', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/paakwasi/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/paakwasi/ros2_ws/install/firt_custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/paakwasi', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/paakwasi/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.100.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/paakwasi/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ak_GH', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/195/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1809', 'BUNDLED_DEBUGPY_PATH': '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/paakwasi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paakwasi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'paakwasi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/paakwasi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1590,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1590', 'GTK_EXE_PREFIX': '/snap/code/195/usr', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ak_GH', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/09528ae9_dfcd_49cc_9284_a3967218b091', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/195/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0881f380dc416149.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ak_GH', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/paakwasi/snap/code/195/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.142M72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-75d1b7e008.sock', 'GNOME_TERMINAL_SERVICE': ':1.97', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/paakwasi/snap/code/195/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ak_GH', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ak_GH', 'LC_IDENTIFICATION': 'ak_GH', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/paakwasi/ros2_ws/build/temp_monitoring', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/paakwasi/snap/code/195/.local/share:/home/paakwasi/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paakwasi/ros2_ws/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/firt_custom_interface/local/lib/python3.10/dist-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ak_GH', 'LC_PAPER': 'ak_GH', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/firt_custom_interface'}, 'shell': False}
+[6.126135] (-) TimerEvent: {}
+[6.126260] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/paakwasi/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/paakwasi/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paakwasi/ros2_ws/src/my_robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paakwasi', 'LC_TIME': 'ak_GH', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/paakwasi/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/paakwasi/ros2_ws/install/firt_custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/paakwasi', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/paakwasi/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.100.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/paakwasi/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ak_GH', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/195/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1809', 'BUNDLED_DEBUGPY_PATH': '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/paakwasi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paakwasi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'paakwasi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/paakwasi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1590,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1590', 'GTK_EXE_PREFIX': '/snap/code/195/usr', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ak_GH', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/09528ae9_dfcd_49cc_9284_a3967218b091', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/195/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0881f380dc416149.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ak_GH', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/paakwasi/snap/code/195/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.142M72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-75d1b7e008.sock', 'GNOME_TERMINAL_SERVICE': ':1.97', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/paakwasi/snap/code/195/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ak_GH', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ak_GH', 'LC_IDENTIFICATION': 'ak_GH', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/paakwasi/ros2_ws/build/my_robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/paakwasi/snap/code/195/.local/share:/home/paakwasi/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/firt_custom_interface/local/lib/python3.10/dist-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ak_GH', 'LC_PAPER': 'ak_GH', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/firt_custom_interface'}, 'shell': False}
+[6.206651] (number_analyzer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/number_analyzer', 'build', '--build-base', '/home/paakwasi/ros2_ws/build/number_analyzer/build', 'install', '--record', '/home/paakwasi/ros2_ws/build/number_analyzer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/paakwasi/ros2_ws/src/number_analyzer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'paakwasi', 'LC_TIME': 'ak_GH', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/paakwasi/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/paakwasi/ros2_ws/install/firt_custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/paakwasi', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/paakwasi/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.100.3', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/paakwasi/snap/code/common/.cache/immodules/immodules.cache', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ak_GH', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/195/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1809', 'BUNDLED_DEBUGPY_PATH': '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/paakwasi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'paakwasi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'paakwasi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/paakwasi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1590,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1590', 'GTK_EXE_PREFIX': '/snap/code/195/usr', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ak_GH', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/09528ae9_dfcd_49cc_9284_a3967218b091', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/195/usr/lib/locale', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0881f380dc416149.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'ak_GH', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/paakwasi/snap/code/195/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.142M72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-75d1b7e008.sock', 'GNOME_TERMINAL_SERVICE': ':1.97', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/paakwasi/snap/code/195/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'ak_GH', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'LC_MEASUREMENT': 'ak_GH', 'LC_IDENTIFICATION': 'ak_GH', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/paakwasi/ros2_ws/build/number_analyzer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/home/paakwasi/snap/code/195/.local/share:/home/paakwasi/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/paakwasi/ros2_ws/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/firt_custom_interface/local/lib/python3.10/dist-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ak_GH', 'LC_PAPER': 'ak_GH', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/paakwasi/ros2_ws/install/firt_custom_interface'}, 'shell': False}
+[6.228103] (-) TimerEvent: {}
+[6.355049] (-) TimerEvent: {}
+[6.464784] (-) TimerEvent: {}
+[6.507715] (first_custom_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.572780] (-) TimerEvent: {}
+[6.690458] (-) TimerEvent: {}
+[6.801219] (-) TimerEvent: {}
+[6.915195] (-) TimerEvent: {}
+[7.017770] (-) TimerEvent: {}
+[7.128457] (-) TimerEvent: {}
+[7.229941] (-) TimerEvent: {}
+[7.334510] (-) TimerEvent: {}
+[7.338237] (temp_monitoring) StdoutLine: {'line': b'running egg_info\n'}
+[7.344630] (temp_monitoring) StdoutLine: {'line': b'writing ../../build/temp_monitoring/temp_monitoring.egg-info/PKG-INFO\n'}
+[7.355759] (temp_monitoring) StdoutLine: {'line': b'writing dependency_links to ../../build/temp_monitoring/temp_monitoring.egg-info/dependency_links.txt\n'}
+[7.359509] (temp_monitoring) StdoutLine: {'line': b'writing entry points to ../../build/temp_monitoring/temp_monitoring.egg-info/entry_points.txt\n'}
+[7.359614] (temp_monitoring) StdoutLine: {'line': b'writing requirements to ../../build/temp_monitoring/temp_monitoring.egg-info/requires.txt\n'}
+[7.369848] (temp_monitoring) StdoutLine: {'line': b'writing top-level names to ../../build/temp_monitoring/temp_monitoring.egg-info/top_level.txt\n'}
+[7.382143] (temp_monitoring) StdoutLine: {'line': b"reading manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'\n"}
+[7.389767] (temp_monitoring) StdoutLine: {'line': b"writing manifest file '../../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'\n"}
+[7.398208] (temp_monitoring) StdoutLine: {'line': b'running build\n'}
+[7.398344] (temp_monitoring) StdoutLine: {'line': b'running build_py\n'}
+[7.402501] (temp_monitoring) StdoutLine: {'line': b'running install\n'}
+[7.421380] (temp_monitoring) StdoutLine: {'line': b'running install_lib\n'}
+[7.441152] (-) TimerEvent: {}
+[7.448947] (temp_monitoring) StdoutLine: {'line': b'running install_data\n'}
+[7.451934] (temp_monitoring) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.470320] (temp_monitoring) StdoutLine: {'line': b"removing '/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.493590] (temp_monitoring) StdoutLine: {'line': b'Copying ../../build/temp_monitoring/temp_monitoring.egg-info to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info\n'}
+[7.502511] (temp_monitoring) StdoutLine: {'line': b'running install_scripts\n'}
+[7.545571] (-) TimerEvent: {}
+[7.582338] (number_analyzer) StdoutLine: {'line': b'running egg_info\n'}
+[7.596507] (number_analyzer) StdoutLine: {'line': b'writing ../../build/number_analyzer/number_analyzer.egg-info/PKG-INFO\n'}
+[7.596688] (number_analyzer) StdoutLine: {'line': b'writing dependency_links to ../../build/number_analyzer/number_analyzer.egg-info/dependency_links.txt\n'}
+[7.605336] (number_analyzer) StdoutLine: {'line': b'writing entry points to ../../build/number_analyzer/number_analyzer.egg-info/entry_points.txt\n'}
+[7.644744] (number_analyzer) StdoutLine: {'line': b'writing requirements to ../../build/number_analyzer/number_analyzer.egg-info/requires.txt\n'}
+[7.644821] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.644881] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[7.659513] (-) TimerEvent: {}
+[7.659690] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[7.659793] (number_analyzer) StdoutLine: {'line': b'writing top-level names to ../../build/number_analyzer/number_analyzer.egg-info/top_level.txt\n'}
+[7.668699] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[7.680253] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[7.680334] (number_analyzer) StdoutLine: {'line': b"reading manifest file '../../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'\n"}
+[7.680384] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[7.680419] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.684087] (number_analyzer) StdoutLine: {'line': b"writing manifest file '../../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'\n"}
+[7.688277] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[7.688536] (number_analyzer) StdoutLine: {'line': b'running build\n'}
+[7.688646] (number_analyzer) StdoutLine: {'line': b'running build_py\n'}
+[7.693279] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[7.693382] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.707377] (number_analyzer) StdoutLine: {'line': b'copying number_analyzer/analysis_server_node.py -> /home/paakwasi/ros2_ws/build/number_analyzer/build/lib/number_analyzer\n'}
+[7.716925] (number_analyzer) StdoutLine: {'line': b'running install\n'}
+[7.717024] (number_analyzer) StdoutLine: {'line': b'running install_lib\n'}
+[7.728939] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[7.729096] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.746523] (number_analyzer) StdoutLine: {'line': b'copying /home/paakwasi/ros2_ws/build/number_analyzer/build/lib/number_analyzer/analysis_server_node.py -> /home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages/number_analyzer\n'}
+[7.746776] (number_analyzer) StdoutLine: {'line': b'byte-compiling /home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages/number_analyzer/analysis_server_node.py to analysis_server_node.cpython-310.pyc\n'}
+[7.746826] (number_analyzer) StdoutLine: {'line': b'running install_data\n'}
+[7.746861] (number_analyzer) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.749249] (number_analyzer) StdoutLine: {'line': b"removing '/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages/number_analyzer-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.756413] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.778469] (-) TimerEvent: {}
+[7.778697] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.784655] (my_robot_controller) StdoutLine: {'line': b"removing '/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.784795] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[7.784841] (number_analyzer) StdoutLine: {'line': b'Copying ../../build/number_analyzer/number_analyzer.egg-info to /home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages/number_analyzer-0.0.0-py3.10.egg-info\n'}
+[7.786872] (number_analyzer) StdoutLine: {'line': b'running install_scripts\n'}
+[7.801922] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.842648] (temp_monitoring) StdoutLine: {'line': b'Installing cooling_node script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring\n'}
+[7.842806] (temp_monitoring) StdoutLine: {'line': b'Installing monitor_node script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring\n'}
+[7.857014] (temp_monitoring) StdoutLine: {'line': b'Installing temp_sensor script to /home/paakwasi/ros2_ws/install/temp_monitoring/lib/temp_monitoring\n'}
+[7.890345] (temp_monitoring) StdoutLine: {'line': b"writing list of installed files to '/home/paakwasi/ros2_ws/build/temp_monitoring/install.log'\n"}
+[7.890528] (-) TimerEvent: {}
+[7.922357] (number_analyzer) StdoutLine: {'line': b"writing list of installed files to '/home/paakwasi/ros2_ws/build/number_analyzer/install.log'\n"}
+[7.950324] (first_custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.988834] (my_robot_controller) StdoutLine: {'line': b'Installing circle script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.989116] (my_robot_controller) StdoutLine: {'line': b'Installing dual_timer script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.989170] (my_robot_controller) StdoutLine: {'line': b'Installing joy_stick script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.990988] (-) TimerEvent: {}
+[7.996044] (my_robot_controller) StdoutLine: {'line': b'Installing light_sensor script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.996348] (my_robot_controller) StdoutLine: {'line': b'Installing service_client script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[7.996454] (my_robot_controller) StdoutLine: {'line': b'Installing smart_light script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[8.021629] (temp_monitoring) CommandEnded: {'returncode': 0}
+[8.024041] (my_robot_controller) StdoutLine: {'line': b'Installing test_node script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[8.070603] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_control script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[8.070684] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_joystick script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[8.070723] (my_robot_controller) StdoutLine: {'line': b'Installing turtle_pos script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[8.070758] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/paakwasi/ros2_ws/build/my_robot_controller/install.log'\n"}
+[8.118719] (-) TimerEvent: {}
+[8.221319] (-) TimerEvent: {}
+[8.268596] (temp_monitoring) JobEnded: {'identifier': 'temp_monitoring', 'rc': 0}
+[8.304356] (number_analyzer) CommandEnded: {'returncode': 0}
+[8.324622] (-) TimerEvent: {}
+[8.450594] (-) TimerEvent: {}
+[8.459247] (number_analyzer) JobEnded: {'identifier': 'number_analyzer', 'rc': 0}
+[8.506395] (my_robot_controller) CommandEnded: {'returncode': 0}
+[8.559869] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[8.560541] (-) TimerEvent: {}
+[8.671297] (-) TimerEvent: {}
+[8.775807] (-) TimerEvent: {}
+[8.887067] (-) TimerEvent: {}
+[8.996174] (-) TimerEvent: {}
+[9.105768] (-) TimerEvent: {}
+[9.210133] (-) TimerEvent: {}
+[9.315729] (-) TimerEvent: {}
+[9.410545] (first_custom_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.432916] (-) TimerEvent: {}
+[9.539085] (-) TimerEvent: {}
+[9.551425] (first_custom_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.571680] (first_custom_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.642982] (-) TimerEvent: {}
+[9.761266] (first_custom_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[9.761516] (-) TimerEvent: {}
+[9.761671] (first_custom_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.764539] (first_custom_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.770907] (first_custom_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.839969] (first_custom_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.867109] (-) TimerEvent: {}
+[9.969503] (-) TimerEvent: {}
+[9.980601] (first_custom_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.038410] (first_custom_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.038973] (first_custom_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.040128] (first_custom_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.080821] (-) TimerEvent: {}
+[10.182759] (first_custom_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[10.184619] (-) TimerEvent: {}
+[10.219631] (first_custom_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/paakwasi/ros2_ws/build/first_custom_interface\n'}
+[10.273345] (first_custom_interface) CommandEnded: {'returncode': 0}
+[10.273755] (first_custom_interface) JobProgress: {'identifier': 'first_custom_interface', 'progress': 'build'}
+[10.273777] (first_custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/paakwasi/ros2_ws/build/first_custom_interface', '--', '-j10', '-l10'], 'cwd': '/home/paakwasi/ros2_ws/build/first_custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paakwasi'), ('LC_TIME', 'ak_GH'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/paakwasi/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/paakwasi/ros2_ws/install/firt_custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paakwasi'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/paakwasi/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/paakwasi/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ak_GH'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/195/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1809'), ('BUNDLED_DEBUGPY_PATH', '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paakwasi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paakwasi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'paakwasi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/paakwasi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1590,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1590'), ('GTK_EXE_PREFIX', '/snap/code/195/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ak_GH'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09528ae9_dfcd_49cc_9284_a3967218b091'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/195/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0881f380dc416149.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ak_GH'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/paakwasi/snap/code/195/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.142M72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-75d1b7e008.sock'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/paakwasi/snap/code/195/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ak_GH'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ak_GH'), ('LC_IDENTIFICATION', 'ak_GH'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paakwasi/ros2_ws/build/first_custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/paakwasi/snap/code/195/.local/share:/home/paakwasi/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/firt_custom_interface/local/lib/python3.10/dist-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ak_GH'), ('LC_PAPER', 'ak_GH'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[10.321671] (-) TimerEvent: {}
+[10.431488] (-) TimerEvent: {}
+[10.539567] (-) TimerEvent: {}
+[10.643240] (-) TimerEvent: {}
+[10.749274] (first_custom_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.762769] (-) TimerEvent: {}
+[10.825605] (first_custom_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.876296] (-) TimerEvent: {}
+[10.956958] (first_custom_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_first_custom_interface\n'}
+[10.979351] (-) TimerEvent: {}
+[11.089761] (-) TimerEvent: {}
+[11.196609] (-) TimerEvent: {}
+[11.310856] (-) TimerEvent: {}
+[11.415016] (-) TimerEvent: {}
+[11.521972] (-) TimerEvent: {}
+[11.626414] (-) TimerEvent: {}
+[11.730230] (-) TimerEvent: {}
+[11.832852] (-) TimerEvent: {}
+[11.938686] (-) TimerEvent: {}
+[12.048505] (-) TimerEvent: {}
+[12.150792] (-) TimerEvent: {}
+[12.277772] (-) TimerEvent: {}
+[12.318797] (first_custom_interface) StdoutLine: {'line': b'[  6%] Built target first_custom_interface__cpp\n'}
+[12.356669] (first_custom_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/first_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/first_custom_interface/srv/detail/analyze_number__functions.c.o\x1b[0m\n'}
+[12.381325] (-) TimerEvent: {}
+[12.413414] (first_custom_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.434198] (first_custom_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.466104] (first_custom_interface) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.483432] (-) TimerEvent: {}
+[12.595767] (-) TimerEvent: {}
+[12.701654] (-) TimerEvent: {}
+[12.826514] (-) TimerEvent: {}
+[12.830148] (first_custom_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libfirst_custom_interface__rosidl_generator_c.so\x1b[0m\n'}
+[12.928417] (-) TimerEvent: {}
+[13.037016] (-) TimerEvent: {}
+[13.150432] (-) TimerEvent: {}
+[13.192202] (first_custom_interface) StdoutLine: {'line': b'[ 22%] Built target first_custom_interface__rosidl_generator_c\n'}
+[13.261080] (first_custom_interface) StdoutLine: {'line': b'running egg_info\n'}
+[13.320729] (-) TimerEvent: {}
+[13.324264] (first_custom_interface) StdoutLine: {'line': b'creating first_custom_interface.egg-info\n'}
+[13.324405] (first_custom_interface) StdoutLine: {'line': b'writing first_custom_interface.egg-info/PKG-INFO\n'}
+[13.357451] (first_custom_interface) StdoutLine: {'line': b'writing dependency_links to first_custom_interface.egg-info/dependency_links.txt\n'}
+[13.357703] (first_custom_interface) StdoutLine: {'line': b'writing top-level names to first_custom_interface.egg-info/top_level.txt\n'}
+[13.369463] (first_custom_interface) StdoutLine: {'line': b"writing manifest file 'first_custom_interface.egg-info/SOURCES.txt'\n"}
+[13.420200] (first_custom_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.423721] (-) TimerEvent: {}
+[13.425934] (first_custom_interface) StdoutLine: {'line': b"reading manifest file 'first_custom_interface.egg-info/SOURCES.txt'\n"}
+[13.440058] (first_custom_interface) StdoutLine: {'line': b"writing manifest file 'first_custom_interface.egg-info/SOURCES.txt'\n"}
+[13.440223] (first_custom_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.457504] (first_custom_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.525060] (-) TimerEvent: {}
+[13.639277] (-) TimerEvent: {}
+[13.756924] (-) TimerEvent: {}
+[13.808456] (first_custom_interface) StdoutLine: {'line': b'[ 32%] Built target ament_cmake_python_build_first_custom_interface_egg\n'}
+[13.870984] (-) TimerEvent: {}
+[13.982219] (first_custom_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/first_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_custom_interface/srv/analyze_number__type_support.cpp.o\x1b[0m\n'}
+[13.982397] (-) TimerEvent: {}
+[14.086174] (-) TimerEvent: {}
+[14.192672] (-) TimerEvent: {}
+[14.295569] (-) TimerEvent: {}
+[14.403558] (-) TimerEvent: {}
+[14.501130] (first_custom_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_custom_interface/srv/detail/analyze_number__type_support.cpp.o\x1b[0m\n'}
+[14.510228] (-) TimerEvent: {}
+[14.611375] (-) TimerEvent: {}
+[14.736855] (-) TimerEvent: {}
+[14.856564] (-) TimerEvent: {}
+[14.965781] (-) TimerEvent: {}
+[14.990302] (first_custom_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/first_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_custom_interface/srv/detail/dds_fastrtps/analyze_number__type_support.cpp.o\x1b[0m\n'}
+[15.068057] (-) TimerEvent: {}
+[15.188561] (-) TimerEvent: {}
+[15.295019] (first_custom_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/first_custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/first_custom_interface/srv/analyze_number__type_support.cpp.o\x1b[0m\n'}
+[15.300655] (-) TimerEvent: {}
+[15.406876] (-) TimerEvent: {}
+[15.429422] (first_custom_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/first_custom_interface/srv/detail/analyze_number__type_support.c.o\x1b[0m\n'}
+[15.510709] (-) TimerEvent: {}
+[15.619725] (first_custom_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/first_custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/first_custom_interface/srv/detail/analyze_number__type_support_c.cpp.o\x1b[0m\n'}
+[15.634231] (-) TimerEvent: {}
+[15.662168] (first_custom_interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_custom_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.734050] (first_custom_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libfirst_custom_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.734415] (-) TimerEvent: {}
+[15.838727] (-) TimerEvent: {}
+[15.973601] (-) TimerEvent: {}
+[16.075632] (first_custom_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_custom_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.077762] (-) TimerEvent: {}
+[16.186395] (-) TimerEvent: {}
+[16.292665] (-) TimerEvent: {}
+[16.356401] (first_custom_interface) StdoutLine: {'line': b'[ 61%] Built target first_custom_interface__rosidl_typesupport_introspection_c\n'}
+[16.356580] (first_custom_interface) StdoutLine: {'line': b'[ 61%] Built target first_custom_interface__rosidl_typesupport_c\n'}
+[16.399862] (-) TimerEvent: {}
+[16.528078] (-) TimerEvent: {}
+[16.646331] (-) TimerEvent: {}
+[16.779622] (-) TimerEvent: {}
+[16.884707] (-) TimerEvent: {}
+[16.992520] (first_custom_interface) StdoutLine: {'line': b'[ 61%] Built target first_custom_interface__rosidl_typesupport_cpp\n'}
+[16.995870] (-) TimerEvent: {}
+[17.103482] (-) TimerEvent: {}
+[17.212653] (-) TimerEvent: {}
+[17.316510] (-) TimerEvent: {}
+[17.433495] (-) TimerEvent: {}
+[17.537674] (-) TimerEvent: {}
+[17.647316] (-) TimerEvent: {}
+[17.718763] (first_custom_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_custom_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.749230] (-) TimerEvent: {}
+[17.868478] (-) TimerEvent: {}
+[17.974678] (-) TimerEvent: {}
+[18.084574] (-) TimerEvent: {}
+[18.207898] (-) TimerEvent: {}
+[18.232446] (first_custom_interface) StdoutLine: {'line': b'[ 64%] Built target first_custom_interface__rosidl_typesupport_introspection_cpp\n'}
+[18.311906] (-) TimerEvent: {}
+[18.376202] (first_custom_interface) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_custom_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.412889] (-) TimerEvent: {}
+[18.459612] (first_custom_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libfirst_custom_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.513758] (-) TimerEvent: {}
+[18.628573] (-) TimerEvent: {}
+[18.734643] (-) TimerEvent: {}
+[18.861560] (-) TimerEvent: {}
+[18.952724] (first_custom_interface) StdoutLine: {'line': b'[ 70%] Built target first_custom_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[18.966373] (-) TimerEvent: {}
+[19.059377] (first_custom_interface) StdoutLine: {'line': b'[ 70%] Built target first_custom_interface__rosidl_typesupport_fastrtps_c\n'}
+[19.068953] (-) TimerEvent: {}
+[19.183112] (-) TimerEvent: {}
+[19.301390] (-) TimerEvent: {}
+[19.307528] (first_custom_interface) StdoutLine: {'line': b'[ 70%] Built target first_custom_interface\n'}
+[19.401698] (-) TimerEvent: {}
+[19.529573] (-) TimerEvent: {}
+[19.587470] (first_custom_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.633439] (-) TimerEvent: {}
+[19.739637] (-) TimerEvent: {}
+[19.842453] (-) TimerEvent: {}
+[19.951824] (-) TimerEvent: {}
+[20.068459] (-) TimerEvent: {}
+[20.191069] (-) TimerEvent: {}
+[20.302150] (-) TimerEvent: {}
+[20.411107] (-) TimerEvent: {}
+[20.525610] (-) TimerEvent: {}
+[20.636361] (-) TimerEvent: {}
+[20.740557] (-) TimerEvent: {}
+[20.860921] (-) TimerEvent: {}
+[20.973580] (-) TimerEvent: {}
+[21.079091] (-) TimerEvent: {}
+[21.192542] (-) TimerEvent: {}
+[21.313656] (-) TimerEvent: {}
+[21.422136] (-) TimerEvent: {}
+[21.532177] (-) TimerEvent: {}
+[21.636380] (-) TimerEvent: {}
+[21.748542] (-) TimerEvent: {}
+[21.856534] (-) TimerEvent: {}
+[21.987009] (-) TimerEvent: {}
+[22.067088] (first_custom_interface) StdoutLine: {'line': b'[ 74%] Built target first_custom_interface__py\n'}
+[22.089033] (-) TimerEvent: {}
+[22.191488] (-) TimerEvent: {}
+[22.305421] (-) TimerEvent: {}
+[22.347210] (first_custom_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/first_custom_interface__rosidl_generator_py.dir/rosidl_generator_py/first_custom_interface/srv/_analyze_number_s.c.o\x1b[0m\n'}
+[22.408106] (-) TimerEvent: {}
+[22.513618] (-) TimerEvent: {}
+[22.616705] (-) TimerEvent: {}
+[22.727815] (-) TimerEvent: {}
+[22.833653] (-) TimerEvent: {}
+[22.937798] (-) TimerEvent: {}
+[23.047721] (-) TimerEvent: {}
+[23.066711] (first_custom_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/first_custom_interface/libfirst_custom_interface__rosidl_generator_py.so\x1b[0m\n'}
+[23.151398] (-) TimerEvent: {}
+[23.258737] (-) TimerEvent: {}
+[23.360071] (-) TimerEvent: {}
+[23.468607] (-) TimerEvent: {}
+[23.487369] (first_custom_interface) StdoutLine: {'line': b'[ 80%] Built target first_custom_interface__rosidl_generator_py\n'}
+[23.575695] (-) TimerEvent: {}
+[23.680591] (-) TimerEvent: {}
+[23.799609] (-) TimerEvent: {}
+[23.862386] (first_custom_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/first_custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[23.908402] (first_custom_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/first_custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[23.913862] (-) TimerEvent: {}
+[23.934389] (first_custom_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/first_custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[24.016115] (-) TimerEvent: {}
+[24.133949] (-) TimerEvent: {}
+[24.247743] (-) TimerEvent: {}
+[24.376979] (-) TimerEvent: {}
+[24.490545] (-) TimerEvent: {}
+[24.595609] (-) TimerEvent: {}
+[24.610300] (first_custom_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/first_custom_interface/first_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.713542] (-) TimerEvent: {}
+[24.743127] (first_custom_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/first_custom_interface/first_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.756975] (first_custom_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/first_custom_interface/first_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.815401] (-) TimerEvent: {}
+[24.948696] (-) TimerEvent: {}
+[25.063754] (-) TimerEvent: {}
+[25.173926] (first_custom_interface) StdoutLine: {'line': b'[100%] Built target first_custom_interface__rosidl_typesupport_c__pyext\n'}
+[25.210050] (-) TimerEvent: {}
+[25.236260] (first_custom_interface) StdoutLine: {'line': b'[100%] Built target first_custom_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[25.312366] (-) TimerEvent: {}
+[25.390497] (first_custom_interface) StdoutLine: {'line': b'[100%] Built target first_custom_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.424234] (-) TimerEvent: {}
+[25.530752] (-) TimerEvent: {}
+[25.657387] (first_custom_interface) CommandEnded: {'returncode': 0}
+[25.660878] (-) TimerEvent: {}
+[25.668090] (first_custom_interface) JobProgress: {'identifier': 'first_custom_interface', 'progress': 'install'}
+[25.731194] (first_custom_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/paakwasi/ros2_ws/build/first_custom_interface'], 'cwd': '/home/paakwasi/ros2_ws/build/first_custom_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'paakwasi'), ('LC_TIME', 'ak_GH'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/paakwasi/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/paakwasi/ros2_ws/install/firt_custom_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/paakwasi'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/paakwasi/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/195/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/paakwasi/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/195/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ak_GH'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/195/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1809'), ('BUNDLED_DEBUGPY_PATH', '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/paakwasi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'paakwasi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'paakwasi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts:/home/paakwasi/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/paakwasi-VirtualBox:@/tmp/.ICE-unix/1590,unix/paakwasi-VirtualBox:/tmp/.ICE-unix/1590'), ('GTK_EXE_PREFIX', '/snap/code/195/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ak_GH'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/09528ae9_dfcd_49cc_9284_a3967218b091'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/195/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/paakwasi/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0881f380dc416149.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ak_GH'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/paakwasi/snap/code/195/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.142M72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-75d1b7e008.sock'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/paakwasi/snap/code/195/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ak_GH'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'ak_GH'), ('LC_IDENTIFICATION', 'ak_GH'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/paakwasi/ros2_ws/build/first_custom_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/paakwasi/snap/code/195/.local/share:/home/paakwasi/snap/code/195:/snap/code/195/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/firt_custom_interface/local/lib/python3.10/dist-packages:/home/paakwasi/ros2_ws/install/temp_monitoring/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ak_GH'), ('LC_PAPER', 'ak_GH'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/paakwasi/ros2_ws/install/firt_custom_interface:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[25.765523] (-) TimerEvent: {}
+[25.844001] (first_custom_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.846767] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/rosidl_interfaces/first_custom_interface\n'}
+[25.846915] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface\n'}
+[25.847201] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg\n'}
+[25.847273] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.847340] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv\n'}
+[25.849653] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail\n'}
+[25.854426] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__struct.h\n'}
+[25.861116] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__functions.c\n'}
+[25.867613] (-) TimerEvent: {}
+[25.867796] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__functions.h\n'}
+[25.867923] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.h\n'}
+[25.868035] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/analyze_number.h\n'}
+[25.870351] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/library_path.sh\n'}
+[25.870436] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/library_path.dsv\n'}
+[25.887392] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_generator_c.so\n'}
+[25.887602] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_generator_c.so" to ""\n'}
+[25.887657] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface\n'}
+[25.887696] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg\n'}
+[25.887733] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.887770] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv\n'}
+[25.887805] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail\n'}
+[25.887841] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_fastrtps_c.h\n'}
+[25.887876] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[25.887911] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[25.887947] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface\n'}
+[25.887989] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg\n'}
+[25.888023] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.894463] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv\n'}
+[25.894641] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail\n'}
+[25.894690] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_c.h\n'}
+[25.894731] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.c\n'}
+[25.894780] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_introspection_c.so\n'}
+[25.898155] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[25.898271] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_c.so\n'}
+[25.898311] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_c.so" to ""\n'}
+[25.898346] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface\n'}
+[25.898382] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg\n'}
+[25.898417] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[25.898457] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv\n'}
+[25.898490] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail\n'}
+[25.898522] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__traits.hpp\n'}
+[25.898556] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__struct.hpp\n'}
+[25.898589] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.hpp\n'}
+[25.898623] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__builder.hpp\n'}
+[25.898655] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/analyze_number.hpp\n'}
+[25.898689] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface\n'}
+[25.898723] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg\n'}
+[25.898756] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.898790] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv\n'}
+[25.898823] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail\n'}
+[25.898855] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.898887] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/dds_fastrtps\n'}
+[25.898919] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.898952] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[25.898983] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface\n'}
+[25.899014] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv\n'}
+[25.899045] (first_custom_interface) StdoutLine: {'line': b'-- Up-to-date: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail\n'}
+[25.899076] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.899108] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/include/first_custom_interface/first_custom_interface/srv/detail/analyze_number__type_support.cpp\n'}
+[25.899143] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[25.901313] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[25.901377] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_cpp.so\n'}
+[25.901415] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[25.909743] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/pythonpath.sh\n'}
+[25.909919] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/pythonpath.dsv\n'}
+[25.919482] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info\n'}
+[25.919669] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.922735] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.922875] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.922925] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.929519] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface\n'}
+[25.969911] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/__init__.py\n'}
+[25.970243] (-) TimerEvent: {}
+[25.970423] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[25.989047] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.989196] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.989302] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.998019] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.000317] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/_first_custom_interface_s.ep.rosidl_typesupport_c.c\n'}
+[26.000441] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/libfirst_custom_interface__rosidl_generator_py.so\n'}
+[26.000491] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv\n'}
+[26.000532] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/__init__.py\n'}
+[26.000574] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/_analyze_number_s.c\n'}
+[26.005441] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/_analyze_number.py\n'}
+[26.075590] (-) TimerEvent: {}
+[26.186453] (-) TimerEvent: {}
+[26.276882] (first_custom_interface) StdoutLine: {'line': b"Listing '/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface'...\n"}
+[26.279497] (first_custom_interface) StdoutLine: {'line': b"Compiling '/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/__init__.py'...\n"}
+[26.279597] (first_custom_interface) StdoutLine: {'line': b"Listing '/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv'...\n"}
+[26.279639] (first_custom_interface) StdoutLine: {'line': b"Compiling '/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/__init__.py'...\n"}
+[26.279680] (first_custom_interface) StdoutLine: {'line': b"Compiling '/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/srv/_analyze_number.py'...\n"}
+[26.293046] (-) TimerEvent: {}
+[26.324315] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.329093] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.329330] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.329436] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.329531] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[26.329625] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages/first_custom_interface/first_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[26.329712] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_generator_py.so\n'}
+[26.329799] (first_custom_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/paakwasi/ros2_ws/install/first_custom_interface/lib/libfirst_custom_interface__rosidl_generator_py.so" to ""\n'}
+[26.329890] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber.idl\n'}
+[26.329973] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber.srv\n'}
+[26.330055] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber_Request.msg\n'}
+[26.337570] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/srv/AnalyzeNumber_Response.msg\n'}
+[26.337729] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/package_run_dependencies/first_custom_interface\n'}
+[26.337777] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/parent_prefix_path/first_custom_interface\n'}
+[26.337814] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/ament_prefix_path.sh\n'}
+[26.337850] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/ament_prefix_path.dsv\n'}
+[26.353520] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/path.sh\n'}
+[26.369173] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/environment/path.dsv\n'}
+[26.369323] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.bash\n'}
+[26.369369] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.sh\n'}
+[26.369405] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.zsh\n'}
+[26.369439] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/local_setup.dsv\n'}
+[26.369473] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/package.dsv\n'}
+[26.369508] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/ament_index/resource_index/packages/first_custom_interface\n'}
+[26.369542] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_cExport.cmake\n'}
+[26.369588] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[26.369622] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.369654] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[26.369687] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.369718] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[26.369749] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cExport.cmake\n'}
+[26.369782] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[26.369813] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_cppExport.cmake\n'}
+[26.369843] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.369875] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[26.369905] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.369935] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[26.369965] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cppExport.cmake\n'}
+[26.369996] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[26.370027] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_pyExport.cmake\n'}
+[26.370057] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/export_first_custom_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[26.370087] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[26.370117] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.370148] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.371889] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.371961] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.372000] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.372035] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.372069] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interfaceConfig.cmake\n'}
+[26.372110] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/cmake/first_custom_interfaceConfig-version.cmake\n'}
+[26.372147] (first_custom_interface) StdoutLine: {'line': b'-- Installing: /home/paakwasi/ros2_ws/install/first_custom_interface/share/first_custom_interface/package.xml\n'}
+[26.390357] (-) TimerEvent: {}
+[26.409774] (first_custom_interface) CommandEnded: {'returncode': 0}
+[26.499106] (-) TimerEvent: {}
+[26.613126] (-) TimerEvent: {}
+[26.630831] (first_custom_interface) JobEnded: {'identifier': 'first_custom_interface', 'rc': 0}
+[26.696735] (-) EventReactorShutdown: {}

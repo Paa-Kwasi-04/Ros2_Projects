@@ -1,0 +1,6 @@
+{
+  "package_name": "firt_custom_interface",
+  "non_idl_tuples": [
+    "/home/paakwasi/ros2_ws/src/firt_custom_interface:srv/AnalyzeNumber.srv"
+  ]
+}

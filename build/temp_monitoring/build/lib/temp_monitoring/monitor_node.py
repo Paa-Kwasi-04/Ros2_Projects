@@ -22,6 +22,7 @@ class MonitorTemperatureNode(Node):
     def monitor(self,temp:Int32):
         request = Trigger.Request()
         if temp.data > 60:
+            self.get_logger().info('Temperature above 60')
             self.cooling_client.call_async(request)
             
 

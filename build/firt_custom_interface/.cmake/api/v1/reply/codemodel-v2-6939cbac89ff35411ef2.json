@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1b8f574f0258dce9a19e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "firt_custom_interface__py",
+					"jsonFile" : "directory-firt_custom_interface__py-51ab6e0dce66a5233427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/paakwasi/ros2_ws/build/firt_custom_interface/firt_custom_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "firt_custom_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_firt_custom_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_firt_custom_interface_egg-9840bc66ee4f4a782732.json",
+					"name" : "ament_cmake_python_build_firt_custom_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_firt_custom_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_firt_custom_interface-15c52e4043552ad409fc.json",
+					"name" : "ament_cmake_python_copy_firt_custom_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface-f8071b6248455f35bdfc.json",
+					"name" : "firt_custom_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__cpp-4dc6b99bbcf493ccd32f.json",
+					"name" : "firt_custom_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "firt_custom_interface__py::@e32a68e5c224b69390b9",
+					"jsonFile" : "target-firt_custom_interface__py-8e222269b3121776af21.json",
+					"name" : "firt_custom_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_generator_c-0ec45b9208e56d729132.json",
+					"name" : "firt_custom_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_generator_py-e279cd90d5680d2280be.json",
+					"name" : "firt_custom_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_c-e0bb36fd4643a3ba026a.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_c__pyext-0f0b41aca018009c3954.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_cpp-d1eaefc4aa72783282bd.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_fastrtps_c-f467117dc4661fee1832.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_fastrtps_c__pyext-5029a2967dbedf12357f.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_fastrtps_cpp-b576cbc7087cca7a40e6.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_introspection_c-6024d36845087b1b06e7.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_introspection_c__pyext-556239693e6e114554b0.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface__rosidl_typesupport_introspection_cpp-1de8c2a6721a4ec236ad.json",
+					"name" : "firt_custom_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firt_custom_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firt_custom_interface_uninstall-a06f377dc1977dce1470.json",
+					"name" : "firt_custom_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7b5aa6beb337df3147e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/paakwasi/ros2_ws/build/firt_custom_interface",
+		"source" : "/home/paakwasi/ros2_ws/src/firt_custom_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

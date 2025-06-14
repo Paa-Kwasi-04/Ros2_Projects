@@ -1,0 +1,30 @@
+[6.146s] Invoking command in '/home/paakwasi/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[7.638s] running egg_info
+[7.644s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[7.653s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[7.673s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[7.673s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[7.673s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[7.673s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[7.681s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[7.686s] running build
+[7.686s] running build_py
+[7.722s] running install
+[7.724s] running install_lib
+[7.769s] running install_data
+[7.772s] running install_egg_info
+[7.778s] removing '/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[7.778s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[7.807s] running install_scripts
+[7.982s] Installing circle script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.982s] Installing dual_timer script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.982s] Installing joy_stick script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.989s] Installing light_sensor script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.989s] Installing service_client script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[7.991s] Installing smart_light script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.063s] Installing test_node script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.063s] Installing turtle_control script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.063s] Installing turtle_joystick script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.063s] Installing turtle_pos script to /home/paakwasi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[8.065s] writing list of installed files to '/home/paakwasi/ros2_ws/build/my_robot_controller/install.log'
+[8.499s] Invoked command in '/home/paakwasi/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
