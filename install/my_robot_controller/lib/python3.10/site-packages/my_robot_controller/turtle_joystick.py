@@ -47,7 +47,7 @@ class TurtleControl(Node):
         twist.angular.z = -msg.axes[3]
 
         #mapping the dpad for rotations
-        if len(msg.buttons) > 6 and  msg.axes[6] != 0:
+        if len(msg.buttons) > 6 and len(msg.axes) > 6  and msg.axes[6] != 0:
             # start = self.get_clock().now()
             # elapsed = self.get_clock().now()-start
             # while elapsed < duration:
@@ -105,7 +105,6 @@ def main(args=None):
     rclpy.init(args=args)
     node = TurtleControl()
     rclpy.spin(node)
-    node.destroy_node()
     rclpy.shutdown()
 
 
