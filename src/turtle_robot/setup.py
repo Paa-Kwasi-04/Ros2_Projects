@@ -20,6 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'status = turtle_robot.status_publisher_node:main',
+            'movement = turtle_robot.turtle_moving:main',
+            'service = turtle_robot.navigation_service_node:main',
+            'controller = turtle_robot.mission_control_node:main'
         ],
     },
 )

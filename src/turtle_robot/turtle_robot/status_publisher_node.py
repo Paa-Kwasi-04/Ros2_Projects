@@ -25,16 +25,20 @@ class StatusPublisherNode(Node):
         position = Point()
         position.x = pose_data.x
         position.y = pose_data.y
-
         self.turtle_pose_publisher_.publish(position)
+
+        # Store last position for battery calculation
+        if self.last_position is not None:
+            dx = pose_data.x - self.last_position.x
+            dy = pose_data.y - self.last_position.y
+            distance = (dx ** 2 + dy ** 2) ** 0.5
+            # Drain battery proportional to distance moved
+            self.battery_level_init_ = max(0.0, self.battery_level_init_ - distance * 2)
+        self.last_position = pose_data
 
     def battery_level(self):
         battery_level = Float32()
-        
-
-        self.battery_level_init_ -= 10.0
         battery_level.data = self.battery_level_init_
-
         self.turtle_battery_publisher_.publish(battery_level)
 
         
