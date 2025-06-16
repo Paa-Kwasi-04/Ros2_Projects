@@ -1,0 +1,23 @@
+[0.733s] Invoking command in '/home/paakwasi/ros2_ws/src/number_analyzer': AMENT_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface LD_LIBRARY_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paakwasi/ros2_ws/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/build/number_analyzer/install.log --single-version-externally-managed install_data
+[0.925s] running egg_info
+[0.925s] writing ../../build/number_analyzer/number_analyzer.egg-info/PKG-INFO
+[0.925s] writing dependency_links to ../../build/number_analyzer/number_analyzer.egg-info/dependency_links.txt
+[0.925s] writing entry points to ../../build/number_analyzer/number_analyzer.egg-info/entry_points.txt
+[0.925s] writing requirements to ../../build/number_analyzer/number_analyzer.egg-info/requires.txt
+[0.925s] writing top-level names to ../../build/number_analyzer/number_analyzer.egg-info/top_level.txt
+[0.926s] reading manifest file '../../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'
+[0.927s] running build
+[0.927s] running build_py
+[0.927s] running install
+[0.927s] running install_lib
+[0.928s] running install_data
+[0.928s] running install_egg_info
+[0.929s] removing '/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages/number_analyzer-0.0.0-py3.10.egg-info' (and everything under it)
+[0.929s] Copying ../../build/number_analyzer/number_analyzer.egg-info to /home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages/number_analyzer-0.0.0-py3.10.egg-info
+[0.930s] running install_scripts
+[0.951s] Installing client script to /home/paakwasi/ros2_ws/install/number_analyzer/lib/number_analyzer
+[0.951s] Installing publisher script to /home/paakwasi/ros2_ws/install/number_analyzer/lib/number_analyzer
+[0.951s] Installing server script to /home/paakwasi/ros2_ws/install/number_analyzer/lib/number_analyzer
+[0.952s] writing list of installed files to '/home/paakwasi/ros2_ws/build/number_analyzer/install.log'
+[0.977s] Invoked command in '/home/paakwasi/ros2_ws/src/number_analyzer' returned '0': AMENT_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface LD_LIBRARY_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paakwasi/ros2_ws/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/number_analyzer/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/build/number_analyzer/install.log --single-version-externally-managed install_data

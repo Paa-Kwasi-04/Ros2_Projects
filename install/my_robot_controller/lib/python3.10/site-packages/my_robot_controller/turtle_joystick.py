@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import rclpy
+import time
 from rclpy.node import Node
 from rclpy.duration import Duration
 from geometry_msgs.msg import Twist
@@ -44,17 +45,17 @@ class TurtleControl(Node):
 
         # mapping the movement       
         twist.linear.x = -msg.axes[1]
-        twist.angular.z = -msg.axes[3]
+        twist.angular.z = -msg.axes[0]
 
-        #mapping the dpad for rotations
-        if len(msg.buttons) > 6 and len(msg.axes) > 6  and msg.axes[6] != 0:
-            # start = self.get_clock().now()
-            # elapsed = self.get_clock().now()-start
-            # while elapsed < duration:
-            #     twist.angular.z  = msg.axes[6]
-            twist.angular.z = msg.axes[6]
-        else:
-            twist.angular.z = 0.0
+        # #mapping the dpad for rotations
+        # if len(msg.axes) > 6  and msg.axes[6] != 0:
+        #     start = self.get_clock().now()
+        #     elapsed = self.get_clock().now()-start
+        #     while elapsed < duration:
+        #         twist.angular.z  = msg.axes[6]
+        # #     twist.angular.z = msg.axes[6]
+        # # else:
+        # #     twist.angular.z = 0.0
             
 
 
@@ -65,25 +66,42 @@ class TurtleControl(Node):
 
         if len(msg.buttons) > 1 and  msg.buttons[1]:  # for respawn to set position and orientation
             self.get_logger().info('Turtle Respawning')
-            self.respawn(0,0,0)
+            self.respawn(0.0,0.0,0.0)
+
+                # D-pad up for 180-degree rotation
+        if len(msg.axes) > 7 and msg.axes[7] == 1.0:
+            self.get_logger().info('D-pad up pressed: Rotating turtle 180 degrees')
+            self.rotate_180()
 
         self.turtle_control_publisher_.publish(twist)
 
+    def rotate_180(self):
+        twist = Twist()
+        twist.angular.z = 1.0  # 1 radian/sec
+        start_time = self.get_clock().now()
+        while (self.get_clock().now() - start_time).nanoseconds / 1e9 < duration:
+            self.turtle_control_publisher_.publish(twist)
+            time.sleep(0.05)  # 20 Hz
+        # Stop rotation
+        twist.angular.z = 0.0
+        self.turtle_control_publisher_.publish(twist)
+
+
     def reset_position(self):
-        request = Empty()
+        request = Empty.Request()
         future = self.reset_client.call_async(request)
         future.add_done_callback(self.check_response)
 
 
     def respawn(self,x,y,theta):
-        request = Spawn().Request()
+        request = Spawn.Request()
         request.x = x
         request.y = y
         request.theta = theta 
-        request.name = 'turtle1'
+        request.name = 'turtle2'
 
-        self.kill_request.name = 'turtle1'
-        self.kill_service.call_async(self.kill_request)
+        # self.kill_request.name = 'turtle1'
+        # self.kill_service.call_async(self.kill_request)
         future = self.respawn_client.call_async(request)
         future.add_done_callback(self.check_response)
        
