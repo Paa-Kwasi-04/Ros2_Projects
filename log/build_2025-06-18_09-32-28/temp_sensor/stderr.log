@@ -1,0 +1,5 @@
+  File "/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor/ATH10_temp_readings.py", line 37
+    float(temp).temperature() , float(humidty).relative_humidity() = data.strip().split('|')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+

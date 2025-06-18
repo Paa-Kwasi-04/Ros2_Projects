@@ -21,28 +21,24 @@ class NavigationServiceNode(Node):
 
         self.get_logger().info('Navigation Service Ready at /return_to_base')
 
-    def navigation(self,request,response):
+    def navigation(self,request):
+        self.client.x = request.x
+        self.client.y = request.y
 
-        if request:
-            response.accepted = True
-
-            self.client.x = request.x
-            self.client.y = request.y
-
-            future = self.turtle_absolute_client_.call_async(self.client)
-            future.add_done_callback(self.check_response)
-        else:
-            response.accepted = False
-
-        return response
-        
-
+        future = self.turtle_absolute_client_.call_async(self.client)
+        future.add_done_callback(self.check_response)
+        self.get_logger().info(f'Request to return to base at x: {request.x}, y: {request.y}')
 
     def check_response(self,response):
         try:
             self.get_logger().info(response.result())
+            response.accepted = True
         except Exception as e:
             self.get_logger().error(e)
+            response.accepted = False
+
+        self.navigation_server_.send_response(response)
+            
 
 
 def main(args=None):

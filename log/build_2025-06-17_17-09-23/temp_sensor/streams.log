@@ -1,0 +1,21 @@
+[0.342s] Invoking command in '/home/paakwasi/ros2_ws/src/temp_sensor': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_sensor build --build-base /home/paakwasi/ros2_ws/build/temp_sensor/build install --record /home/paakwasi/ros2_ws/build/temp_sensor/install.log --single-version-externally-managed install_data
+[0.461s] running egg_info
+[0.461s] writing ../../build/temp_sensor/temp_sensor.egg-info/PKG-INFO
+[0.461s] writing dependency_links to ../../build/temp_sensor/temp_sensor.egg-info/dependency_links.txt
+[0.462s] writing entry points to ../../build/temp_sensor/temp_sensor.egg-info/entry_points.txt
+[0.462s] writing requirements to ../../build/temp_sensor/temp_sensor.egg-info/requires.txt
+[0.462s] writing top-level names to ../../build/temp_sensor/temp_sensor.egg-info/top_level.txt
+[0.462s] reading manifest file '../../build/temp_sensor/temp_sensor.egg-info/SOURCES.txt'
+[0.463s] writing manifest file '../../build/temp_sensor/temp_sensor.egg-info/SOURCES.txt'
+[0.463s] running build
+[0.463s] running build_py
+[0.463s] running install
+[0.463s] running install_lib
+[0.464s] running install_data
+[0.464s] running install_egg_info
+[0.465s] removing '/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[0.465s] Copying ../../build/temp_sensor/temp_sensor.egg-info to /home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor-0.0.0-py3.10.egg-info
+[0.465s] running install_scripts
+[0.478s] Installing Temp_reading script to /home/paakwasi/ros2_ws/install/temp_sensor/lib/temp_sensor
+[0.478s] writing list of installed files to '/home/paakwasi/ros2_ws/build/temp_sensor/install.log'
+[0.493s] Invoked command in '/home/paakwasi/ros2_ws/src/temp_sensor' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_sensor build --build-base /home/paakwasi/ros2_ws/build/temp_sensor/build install --record /home/paakwasi/ros2_ws/build/temp_sensor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+Temp_reading = temp_sensor.ATH10_temp_readings:main
+

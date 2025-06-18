@@ -12,7 +12,7 @@ from geometry_msgs.msg import Point
 class StatusPublisherNode(Node):
     def __init__(self):
         super().__init('Status_publisher_node')
-        self.battery_level_init_ = 100.0
+        self.battery_level_init_ = 5
         self.turtle_status_subscriber_ = self.create_subscription(Pose,'/turtle1/pose',self.turtle_pose)
         self.turtle_battery_publisher_ = self.create_publisher(Float32,'/battery_level',10)
         self.turtle_pose_publisher_ = self.create_publisher(Point,'/robot_position',10)
@@ -39,6 +39,7 @@ class StatusPublisherNode(Node):
     def battery_level(self):
         battery_level = Float32()
         battery_level.data = self.battery_level_init_
+        self.get_logger().info(f'Battery Level: {battery_level.data}')
         self.turtle_battery_publisher_.publish(battery_level)
 
         

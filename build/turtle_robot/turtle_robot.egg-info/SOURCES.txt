@@ -8,6 +8,7 @@ setup.py
 ../../build/turtle_robot/turtle_robot.egg-info/requires.txt
 ../../build/turtle_robot/turtle_robot.egg-info/top_level.txt
 ../../build/turtle_robot/turtle_robot.egg-info/zip-safe
+launch/turtle_robot_.launch.py
 resource/turtle_robot
 test/test_copyright.py
 test/test_flake8.py

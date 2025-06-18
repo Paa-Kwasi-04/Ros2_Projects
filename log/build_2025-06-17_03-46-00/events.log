@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (-) JobUnselected: {'identifier': 'first_custom_interface'}
+[0.000356] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000375] (-) JobUnselected: {'identifier': 'number_analyzer'}
+[0.000394] (-) JobUnselected: {'identifier': 'temp_monitoring'}
+[0.000412] (-) JobUnselected: {'identifier': 'turtle_robot'}
+[0.000661] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[0.325s] Invoking command in '/home/paakwasi/ros2_ws/src/turtle_robot': AMENT_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface LD_LIBRARY_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paakwasi/ros2_ws/build/turtle_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_robot build --build-base /home/paakwasi/ros2_ws/build/turtle_robot/build install --record /home/paakwasi/ros2_ws/build/turtle_robot/install.log --single-version-externally-managed install_data
+[0.443s] running egg_info
+[0.444s] writing ../../build/turtle_robot/turtle_robot.egg-info/PKG-INFO
+[0.444s] writing dependency_links to ../../build/turtle_robot/turtle_robot.egg-info/dependency_links.txt
+[0.444s] writing entry points to ../../build/turtle_robot/turtle_robot.egg-info/entry_points.txt
+[0.444s] writing requirements to ../../build/turtle_robot/turtle_robot.egg-info/requires.txt
+[0.444s] writing top-level names to ../../build/turtle_robot/turtle_robot.egg-info/top_level.txt
+[0.445s] reading manifest file '../../build/turtle_robot/turtle_robot.egg-info/SOURCES.txt'
+[0.446s] writing manifest file '../../build/turtle_robot/turtle_robot.egg-info/SOURCES.txt'
+[0.446s] running build
+[0.446s] running build_py
+[0.446s] running install
+[0.446s] running install_lib
+[0.447s] running install_data
+[0.447s] copying launch/turtle_robot_.launch.py -> /home/paakwasi/ros2_ws/install/turtle_robot/share/turtle_robot/launch
+[0.447s] running install_egg_info
+[0.448s] removing '/home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.448s] Copying ../../build/turtle_robot/turtle_robot.egg-info to /home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages/turtle_robot-0.0.0-py3.10.egg-info
+[0.448s] running install_scripts
+[0.461s] Installing controller script to /home/paakwasi/ros2_ws/install/turtle_robot/lib/turtle_robot
+[0.461s] Installing movement script to /home/paakwasi/ros2_ws/install/turtle_robot/lib/turtle_robot
+[0.461s] Installing service script to /home/paakwasi/ros2_ws/install/turtle_robot/lib/turtle_robot
+[0.462s] Installing status script to /home/paakwasi/ros2_ws/install/turtle_robot/lib/turtle_robot
+[0.462s] writing list of installed files to '/home/paakwasi/ros2_ws/build/turtle_robot/install.log'
+[0.475s] Invoked command in '/home/paakwasi/ros2_ws/src/turtle_robot' returned '0': AMENT_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface LD_LIBRARY_PATH=/home/paakwasi/ros2_ws/install/first_custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/paakwasi/ros2_ws/build/turtle_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/turtle_robot/lib/python3.10/site-packages:/home/paakwasi/ros2_ws/install/first_custom_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_robot build --build-base /home/paakwasi/ros2_ws/build/turtle_robot/build install --record /home/paakwasi/ros2_ws/build/turtle_robot/install.log --single-version-externally-managed install_data

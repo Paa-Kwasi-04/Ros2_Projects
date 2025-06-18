@@ -78,6 +78,8 @@ def main(args=None):
     node = JoyStickController()
     try:
        rclpy.spin(node)
+    except KeyboardInterrupt:
+        node.get_logger().info('JoyStick Controller stopped by user')
     finally: 
         node.destroy_node()   
         rclpy.shutdown()

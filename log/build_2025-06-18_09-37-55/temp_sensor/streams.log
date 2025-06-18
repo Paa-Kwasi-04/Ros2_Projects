@@ -1,0 +1,29 @@
+[0.841s] Invoking command in '/home/paakwasi/ros2_ws/src/temp_sensor': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_sensor build --build-base /home/paakwasi/ros2_ws/build/temp_sensor/build install --record /home/paakwasi/ros2_ws/build/temp_sensor/install.log --single-version-externally-managed install_data
+[1.124s] running egg_info
+[1.125s] writing ../../build/temp_sensor/temp_sensor.egg-info/PKG-INFO
+[1.125s] writing dependency_links to ../../build/temp_sensor/temp_sensor.egg-info/dependency_links.txt
+[1.125s] writing entry points to ../../build/temp_sensor/temp_sensor.egg-info/entry_points.txt
+[1.125s] writing requirements to ../../build/temp_sensor/temp_sensor.egg-info/requires.txt
+[1.125s] writing top-level names to ../../build/temp_sensor/temp_sensor.egg-info/top_level.txt
+[1.127s] reading manifest file '../../build/temp_sensor/temp_sensor.egg-info/SOURCES.txt'
+[1.128s] writing manifest file '../../build/temp_sensor/temp_sensor.egg-info/SOURCES.txt'
+[1.128s] running build
+[1.128s] running build_py
+[1.129s] copying temp_sensor/ATH10_temp_readings.py -> /home/paakwasi/ros2_ws/build/temp_sensor/build/lib/temp_sensor
+[1.129s] running install
+[1.129s] running install_lib
+[1.130s] copying /home/paakwasi/ros2_ws/build/temp_sensor/build/lib/temp_sensor/ATH10_temp_readings.py -> /home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor
+[1.131s] byte-compiling /home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor/ATH10_temp_readings.py to ATH10_temp_readings.cpython-310.pyc
+[1.131s]   File "/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor/ATH10_temp_readings.py", line 39
+[1.131s]     temp.temperature()  = temp_str
+[1.131s]     ^^^^^^^^^^^^^^^^^^
+[1.131s] SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+[1.132s] 
+[1.132s] running install_data
+[1.132s] running install_egg_info
+[1.133s] removing '/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[1.134s] Copying ../../build/temp_sensor/temp_sensor.egg-info to /home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages/temp_sensor-0.0.0-py3.10.egg-info
+[1.135s] running install_scripts
+[1.153s] Installing Temp_reading script to /home/paakwasi/ros2_ws/install/temp_sensor/lib/temp_sensor
+[1.153s] writing list of installed files to '/home/paakwasi/ros2_ws/build/temp_sensor/install.log'
+[1.173s] Invoked command in '/home/paakwasi/ros2_ws/src/temp_sensor' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/temp_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/temp_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_sensor build --build-base /home/paakwasi/ros2_ws/build/temp_sensor/build install --record /home/paakwasi/ros2_ws/build/temp_sensor/install.log --single-version-externally-managed install_data

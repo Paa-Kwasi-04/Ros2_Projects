@@ -16,7 +16,7 @@ class TurtleMovement(Node):
 
     def send_velocity_command(self):
         msg = Twist()
-        msg.angular.z = uniform(0.5,2)
+        msg.angular.z = uniform(0.5,1)
         msg.linear.x = uniform(0.5,2)
         self.cmd_vel_pub_.publish(msg)
 
