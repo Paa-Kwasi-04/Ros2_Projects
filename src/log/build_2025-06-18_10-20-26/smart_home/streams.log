@@ -1,0 +1,33 @@
+[0.317s] Invoking command in '/home/paakwasi/ros2_ws/src/smart_home': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/smart_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/smart_home build --build-base /home/paakwasi/ros2_ws/src/build/smart_home/build install --record /home/paakwasi/ros2_ws/src/build/smart_home/install.log --single-version-externally-managed install_data
+[0.438s] running egg_info
+[0.438s] creating ../build/smart_home/smart_home.egg-info
+[0.438s] writing ../build/smart_home/smart_home.egg-info/PKG-INFO
+[0.438s] writing dependency_links to ../build/smart_home/smart_home.egg-info/dependency_links.txt
+[0.438s] writing entry points to ../build/smart_home/smart_home.egg-info/entry_points.txt
+[0.439s] writing requirements to ../build/smart_home/smart_home.egg-info/requires.txt
+[0.439s] writing top-level names to ../build/smart_home/smart_home.egg-info/top_level.txt
+[0.439s] writing manifest file '../build/smart_home/smart_home.egg-info/SOURCES.txt'
+[0.439s] reading manifest file '../build/smart_home/smart_home.egg-info/SOURCES.txt'
+[0.440s] writing manifest file '../build/smart_home/smart_home.egg-info/SOURCES.txt'
+[0.440s] running build
+[0.440s] running build_py
+[0.440s] creating /home/paakwasi/ros2_ws/src/build/smart_home/build
+[0.440s] creating /home/paakwasi/ros2_ws/src/build/smart_home/build/lib
+[0.440s] creating /home/paakwasi/ros2_ws/src/build/smart_home/build/lib/smart_home
+[0.440s] copying smart_home/__init__.py -> /home/paakwasi/ros2_ws/src/build/smart_home/build/lib/smart_home
+[0.440s] running install
+[0.440s] running install_lib
+[0.440s] creating /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home
+[0.440s] copying /home/paakwasi/ros2_ws/src/build/smart_home/build/lib/smart_home/__init__.py -> /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home
+[0.441s] byte-compiling /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home/__init__.py to __init__.cpython-310.pyc
+[0.441s] running install_data
+[0.441s] creating /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index
+[0.441s] creating /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index/resource_index
+[0.441s] creating /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index/resource_index/packages
+[0.441s] copying resource/smart_home -> /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index/resource_index/packages
+[0.441s] copying package.xml -> /home/paakwasi/ros2_ws/src/install/smart_home/share/smart_home
+[0.441s] running install_egg_info
+[0.442s] Copying ../build/smart_home/smart_home.egg-info to /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home-0.0.0-py3.10.egg-info
+[0.442s] running install_scripts
+[0.455s] writing list of installed files to '/home/paakwasi/ros2_ws/src/build/smart_home/install.log'
+[0.471s] Invoked command in '/home/paakwasi/ros2_ws/src/smart_home' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/smart_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/smart_home build --build-base /home/paakwasi/ros2_ws/src/build/smart_home/build install --record /home/paakwasi/ros2_ws/src/build/smart_home/install.log --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/smart_home/smart_home.egg-info
+writing ../build/smart_home/smart_home.egg-info/PKG-INFO
+writing dependency_links to ../build/smart_home/smart_home.egg-info/dependency_links.txt
+writing entry points to ../build/smart_home/smart_home.egg-info/entry_points.txt
+writing requirements to ../build/smart_home/smart_home.egg-info/requires.txt
+writing top-level names to ../build/smart_home/smart_home.egg-info/top_level.txt
+writing manifest file '../build/smart_home/smart_home.egg-info/SOURCES.txt'
+reading manifest file '../build/smart_home/smart_home.egg-info/SOURCES.txt'
+writing manifest file '../build/smart_home/smart_home.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/paakwasi/ros2_ws/src/build/smart_home/build
+creating /home/paakwasi/ros2_ws/src/build/smart_home/build/lib
+creating /home/paakwasi/ros2_ws/src/build/smart_home/build/lib/smart_home
+copying smart_home/__init__.py -> /home/paakwasi/ros2_ws/src/build/smart_home/build/lib/smart_home
+running install
+running install_lib
+creating /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home
+copying /home/paakwasi/ros2_ws/src/build/smart_home/build/lib/smart_home/__init__.py -> /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home
+byte-compiling /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index
+creating /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index/resource_index
+creating /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index/resource_index/packages
+copying resource/smart_home -> /home/paakwasi/ros2_ws/src/install/smart_home/share/ament_index/resource_index/packages
+copying package.xml -> /home/paakwasi/ros2_ws/src/install/smart_home/share/smart_home
+running install_egg_info
+Copying ../build/smart_home/smart_home.egg-info to /home/paakwasi/ros2_ws/src/install/smart_home/lib/python3.10/site-packages/smart_home-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/paakwasi/ros2_ws/src/build/smart_home/install.log'

@@ -32,19 +32,29 @@ class ATH10TempReadings(Node):
     def read_port(self):
         temp = Temperature()
         humidty = RelativeHumidity()
-        ser = serial.Serial(port='/dev/ttyACM0',baudrate=9600)
-        data = ser.readline().decode('utf-8')
-        try:
-            temp_str , humdity_str =  data.strip().split('|')
-            temp.temperature = float(temp_str)
-            humidty.relative_humidity = float(humdity_str)
 
-            self.temperature_publisher_.publish(temp)
-            self.humidity_publisher_.publish(humidty)
+        with serial.Serial(port='/dev/ttyACM0', baudrate=9600, timeout=1) as ser:
+            data = ser.readline().decode('utf-8').strip()
+            self.get_logger().info(data)
+            """
+            Data format
+            sensor0,temperature_reading,humdity_reading|sensor0,temperature_reading,humdity_reading ...
+            """
+            sensor_data = {}
+            try:
+                sensor_list =  data.strip().split('|')
 
-            self.get_logger().info(f'Temperature | Relative_Humidity: {str(temp.temperature)} | {str(humidty.relative_humidity)}')
-        finally:
-            ser.close()    
+                for x in range(len(sensor_list)):
+                    sensor_data[f'sensor{x+1}'] = sensor_list[x]
+                    self.get_logger().info('Read data: ')
+                    self.get_logger().info(sensor_data[f'sensor{x+1}'])
+
+
+
+
+
+            except ValueError as e:
+                self.get_logger().error(f'Error parsing data: {e}')  
 
 
 
