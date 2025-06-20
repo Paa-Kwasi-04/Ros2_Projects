@@ -1,0 +1,36 @@
+[1.195s] Invoking command in '/home/paakwasi/ros2_ws/src/smart_home': PYTHONPATH=/home/paakwasi/ros2_ws/build/smart_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_home build --build-base /home/paakwasi/ros2_ws/build/smart_home/build install --record /home/paakwasi/ros2_ws/build/smart_home/install.log --single-version-externally-managed install_data
+[1.518s] running egg_info
+[1.518s] creating ../../build/smart_home/smart_home.egg-info
+[1.519s] writing ../../build/smart_home/smart_home.egg-info/PKG-INFO
+[1.519s] writing dependency_links to ../../build/smart_home/smart_home.egg-info/dependency_links.txt
+[1.521s] writing entry points to ../../build/smart_home/smart_home.egg-info/entry_points.txt
+[1.521s] writing requirements to ../../build/smart_home/smart_home.egg-info/requires.txt
+[1.521s] writing top-level names to ../../build/smart_home/smart_home.egg-info/top_level.txt
+[1.521s] writing manifest file '../../build/smart_home/smart_home.egg-info/SOURCES.txt'
+[1.523s] reading manifest file '../../build/smart_home/smart_home.egg-info/SOURCES.txt'
+[1.524s] writing manifest file '../../build/smart_home/smart_home.egg-info/SOURCES.txt'
+[1.524s] running build
+[1.524s] running build_py
+[1.524s] creating /home/paakwasi/ros2_ws/build/smart_home/build
+[1.524s] creating /home/paakwasi/ros2_ws/build/smart_home/build/lib
+[1.524s] creating /home/paakwasi/ros2_ws/build/smart_home/build/lib/smart_home
+[1.524s] copying smart_home/__init__.py -> /home/paakwasi/ros2_ws/build/smart_home/build/lib/smart_home
+[1.524s] copying smart_home/sensor_publisher_node.py -> /home/paakwasi/ros2_ws/build/smart_home/build/lib/smart_home
+[1.524s] running install
+[1.525s] running install_lib
+[1.526s] creating /home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages/smart_home
+[1.526s] copying /home/paakwasi/ros2_ws/build/smart_home/build/lib/smart_home/__init__.py -> /home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages/smart_home
+[1.526s] copying /home/paakwasi/ros2_ws/build/smart_home/build/lib/smart_home/sensor_publisher_node.py -> /home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages/smart_home
+[1.527s] byte-compiling /home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages/smart_home/__init__.py to __init__.cpython-310.pyc
+[1.527s] byte-compiling /home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages/smart_home/sensor_publisher_node.py to sensor_publisher_node.cpython-310.pyc
+[1.528s] running install_data
+[1.528s] creating /home/paakwasi/ros2_ws/install/smart_home/share/ament_index
+[1.528s] creating /home/paakwasi/ros2_ws/install/smart_home/share/ament_index/resource_index
+[1.528s] creating /home/paakwasi/ros2_ws/install/smart_home/share/ament_index/resource_index/packages
+[1.528s] copying resource/smart_home -> /home/paakwasi/ros2_ws/install/smart_home/share/ament_index/resource_index/packages
+[1.529s] copying package.xml -> /home/paakwasi/ros2_ws/install/smart_home/share/smart_home
+[1.529s] running install_egg_info
+[1.531s] Copying ../../build/smart_home/smart_home.egg-info to /home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages/smart_home-0.0.0-py3.10.egg-info
+[1.533s] running install_scripts
+[1.564s] writing list of installed files to '/home/paakwasi/ros2_ws/build/smart_home/install.log'
+[1.604s] Invoked command in '/home/paakwasi/ros2_ws/src/smart_home' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/build/smart_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/install/smart_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_home build --build-base /home/paakwasi/ros2_ws/build/smart_home/build install --record /home/paakwasi/ros2_ws/build/smart_home/install.log --single-version-externally-managed install_data

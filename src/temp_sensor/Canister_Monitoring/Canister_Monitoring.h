@@ -1,5 +1,5 @@
 /**
- * @file canister_monitoring.h
+ * @file Canister_Monitoring.h
  * @brief Header file for the ATH10 Sensor Library
  * 
  * This library provides a simplified interface to the ATH10 sensor,
@@ -49,7 +49,7 @@ public:
 
 private:
     std::vector<uint8_t> sensorPorts;         // Array of sensor port numbers
-    Adafruit_AHTX0 aht;                       // Instance of the AHT10 sensor
+    std::vector<Adafruit_AHTX0> ahtSensors;            
     bool initialized = false;                  // Flag to check if the sensor is initialized
 
     uint8_t muxAddr = 0x70;                   // I2C address of the multiplexer

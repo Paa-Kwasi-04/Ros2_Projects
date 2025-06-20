@@ -35,7 +35,6 @@ class ATH10TempReadings(Node):
 
         with serial.Serial(port='/dev/ttyACM0', baudrate=9600, timeout=1) as ser:
             data = ser.readline().decode('utf-8').strip()
-            self.get_logger().info('Read data: ')
             self.get_logger().info(data)
             """
             Data format
@@ -47,6 +46,7 @@ class ATH10TempReadings(Node):
 
                 for x in range(len(sensor_list)):
                     sensor_data[f'sensor{x+1}'] = sensor_list[x]
+                    self.get_logger().info('Read data: ')
                     self.get_logger().info(sensor_data[f'sensor{x+1}'])
 
 

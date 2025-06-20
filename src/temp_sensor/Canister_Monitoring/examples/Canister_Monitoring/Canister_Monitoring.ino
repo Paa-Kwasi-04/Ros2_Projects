@@ -1,5 +1,4 @@
-#include <Wire.h>
-#include "canister_monitoring.h"
+#include "Canister_Monitoring.h"
 
 // Define which ports have sensors connected
 std::vector<uint8_t> sensorPorts = {0, 2, 5};
