@@ -1,0 +1,6 @@
+Invoking command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paakwasi/ros2_ws/src/Custom_interface -DCMAKE_INSTALL_PREFIX=/home/paakwasi/ros2_ws/src/install/first_custom_interface
+Invoked command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/paakwasi/ros2_ws/src/Custom_interface -DCMAKE_INSTALL_PREFIX=/home/paakwasi/ros2_ws/src/install/first_custom_interface
+Invoking command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paakwasi/ros2_ws/src/build/first_custom_interface -- -j12 -l12
+Invoked command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/paakwasi/ros2_ws/src/build/first_custom_interface -- -j12 -l12
+Invoking command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paakwasi/ros2_ws/src/build/first_custom_interface
+Invoked command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/paakwasi/ros2_ws/src/build/first_custom_interface

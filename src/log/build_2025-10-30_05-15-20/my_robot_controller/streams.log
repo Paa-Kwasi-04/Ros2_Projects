@@ -1,0 +1,73 @@
+[3.865s] Invoking command in '/home/paakwasi/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/src/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[4.700s] running egg_info
+[4.700s] creating ../build/my_robot_controller/my_robot_controller.egg-info
+[4.700s] writing ../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[4.700s] writing dependency_links to ../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[4.700s] writing entry points to ../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[4.701s] writing requirements to ../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[4.701s] writing top-level names to ../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[4.702s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[4.705s] reading manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[4.708s] writing manifest file '../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[4.708s] running build
+[4.708s] running build_py
+[4.710s] creating /home/paakwasi/ros2_ws/src/build/my_robot_controller/build
+[4.710s] creating /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib
+[4.711s] creating /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.712s] copying my_robot_controller/light_sensor_node.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.713s] copying my_robot_controller/__init__.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.714s] copying my_robot_controller/Service_client.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.714s] copying my_robot_controller/draw_circle.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.715s] copying my_robot_controller/my_first_node.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.716s] copying my_robot_controller/turtle_position.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.717s] copying my_robot_controller/Sub_Pub_Loop.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.718s] copying my_robot_controller/turtle_joystick.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.719s] copying my_robot_controller/dual_timer_logger.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.719s] copying my_robot_controller/joy_stick.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.720s] copying my_robot_controller/smart_light_node.py -> /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller
+[4.722s] running install
+[4.722s] running install_lib
+[4.723s] creating /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.724s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/light_sensor_node.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.724s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.725s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/Service_client.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.725s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.726s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/my_first_node.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.726s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/turtle_position.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.731s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/Sub_Pub_Loop.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.734s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/turtle_joystick.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.736s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/dual_timer_logger.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.738s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/joy_stick.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.739s] copying /home/paakwasi/ros2_ws/src/build/my_robot_controller/build/lib/my_robot_controller/smart_light_node.py -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[4.739s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/light_sensor_node.py to light_sensor_node.cpython-310.pyc
+[4.739s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[4.739s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/Service_client.py to Service_client.cpython-310.pyc
+[4.740s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[4.740s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/my_first_node.py to my_first_node.cpython-310.pyc
+[4.740s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_position.py to turtle_position.cpython-310.pyc
+[4.740s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/Sub_Pub_Loop.py to Sub_Pub_Loop.cpython-310.pyc
+[4.740s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_joystick.py to turtle_joystick.cpython-310.pyc
+[4.743s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/dual_timer_logger.py to dual_timer_logger.cpython-310.pyc
+[4.743s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/joy_stick.py to joy_stick.cpython-310.pyc
+[4.746s] byte-compiling /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/smart_light_node.py to smart_light_node.cpython-310.pyc
+[4.747s] running install_data
+[4.751s] creating /home/paakwasi/ros2_ws/src/install/my_robot_controller/share/ament_index
+[4.751s] creating /home/paakwasi/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[4.751s] creating /home/paakwasi/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[4.751s] copying resource/my_robot_controller -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[4.752s] copying package.xml -> /home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller
+[4.752s] running install_egg_info
+[4.756s] Copying ../build/my_robot_controller/my_robot_controller.egg-info to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[4.760s] running install_scripts
+[4.853s] Installing circle script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.854s] Installing dual_timer script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.854s] Installing joy_stick script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.854s] Installing light_sensor script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.854s] Installing service_client script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.855s] Installing smart_light script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.855s] Installing test_node script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.855s] Installing turtle_control script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.855s] Installing turtle_joystick script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.856s] Installing turtle_pos script to /home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[4.856s] writing list of installed files to '/home/paakwasi/ros2_ws/src/build/my_robot_controller/install.log'
+[4.987s] Invoked command in '/home/paakwasi/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/src/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed install_data

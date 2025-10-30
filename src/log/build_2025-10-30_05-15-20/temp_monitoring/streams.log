@@ -1,0 +1,45 @@
+[3.747s] Invoking command in '/home/paakwasi/ros2_ws/src/temp_monitoring': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/src/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/src/build/temp_monitoring/install.log --single-version-externally-managed install_data
+[4.403s] running egg_info
+[4.405s] creating ../build/temp_monitoring/temp_monitoring.egg-info
+[4.405s] writing ../build/temp_monitoring/temp_monitoring.egg-info/PKG-INFO
+[4.406s] writing dependency_links to ../build/temp_monitoring/temp_monitoring.egg-info/dependency_links.txt
+[4.407s] writing entry points to ../build/temp_monitoring/temp_monitoring.egg-info/entry_points.txt
+[4.407s] writing requirements to ../build/temp_monitoring/temp_monitoring.egg-info/requires.txt
+[4.408s] writing top-level names to ../build/temp_monitoring/temp_monitoring.egg-info/top_level.txt
+[4.408s] writing manifest file '../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[4.417s] reading manifest file '../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[4.417s] writing manifest file '../build/temp_monitoring/temp_monitoring.egg-info/SOURCES.txt'
+[4.417s] running build
+[4.418s] running build_py
+[4.418s] creating /home/paakwasi/ros2_ws/src/build/temp_monitoring/build
+[4.418s] creating /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib
+[4.418s] creating /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring
+[4.418s] copying temp_monitoring/cooling_node_service.py -> /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring
+[4.419s] copying temp_monitoring/monitor_node.py -> /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring
+[4.419s] copying temp_monitoring/__init__.py -> /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring
+[4.419s] copying temp_monitoring/temp_sensor_node.py -> /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring
+[4.419s] running install
+[4.419s] running install_lib
+[4.421s] creating /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring
+[4.422s] copying /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring/cooling_node_service.py -> /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring
+[4.422s] copying /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring/monitor_node.py -> /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring
+[4.422s] copying /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring/__init__.py -> /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring
+[4.422s] copying /home/paakwasi/ros2_ws/src/build/temp_monitoring/build/lib/temp_monitoring/temp_sensor_node.py -> /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring
+[4.425s] byte-compiling /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring/cooling_node_service.py to cooling_node_service.cpython-310.pyc
+[4.425s] byte-compiling /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring/monitor_node.py to monitor_node.cpython-310.pyc
+[4.427s] byte-compiling /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring/__init__.py to __init__.cpython-310.pyc
+[4.427s] byte-compiling /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring/temp_sensor_node.py to temp_sensor_node.cpython-310.pyc
+[4.429s] running install_data
+[4.430s] creating /home/paakwasi/ros2_ws/src/install/temp_monitoring/share/ament_index
+[4.431s] creating /home/paakwasi/ros2_ws/src/install/temp_monitoring/share/ament_index/resource_index
+[4.431s] creating /home/paakwasi/ros2_ws/src/install/temp_monitoring/share/ament_index/resource_index/packages
+[4.432s] copying resource/temp_monitoring -> /home/paakwasi/ros2_ws/src/install/temp_monitoring/share/ament_index/resource_index/packages
+[4.432s] copying package.xml -> /home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring
+[4.432s] running install_egg_info
+[4.435s] Copying ../build/temp_monitoring/temp_monitoring.egg-info to /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages/temp_monitoring-0.0.0-py3.10.egg-info
+[4.438s] running install_scripts
+[4.497s] Installing cooling_node script to /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/temp_monitoring
+[4.497s] Installing monitor_node script to /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/temp_monitoring
+[4.498s] Installing temp_sensor script to /home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/temp_monitoring
+[4.498s] writing list of installed files to '/home/paakwasi/ros2_ws/src/build/temp_monitoring/install.log'
+[4.577s] Invoked command in '/home/paakwasi/ros2_ws/src/temp_monitoring' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/src/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/src/build/temp_monitoring/install.log --single-version-externally-managed install_data

@@ -1,0 +1,45 @@
+[3.784s] Invoking command in '/home/paakwasi/ros2_ws/src/number_analyzer': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/src/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/src/build/number_analyzer/install.log --single-version-externally-managed install_data
+[4.595s] running egg_info
+[4.598s] creating ../build/number_analyzer/number_analyzer.egg-info
+[4.599s] writing ../build/number_analyzer/number_analyzer.egg-info/PKG-INFO
+[4.599s] writing dependency_links to ../build/number_analyzer/number_analyzer.egg-info/dependency_links.txt
+[4.600s] writing entry points to ../build/number_analyzer/number_analyzer.egg-info/entry_points.txt
+[4.601s] writing requirements to ../build/number_analyzer/number_analyzer.egg-info/requires.txt
+[4.602s] writing top-level names to ../build/number_analyzer/number_analyzer.egg-info/top_level.txt
+[4.602s] writing manifest file '../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'
+[4.610s] reading manifest file '../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'
+[4.611s] writing manifest file '../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'
+[4.613s] running build
+[4.614s] running build_py
+[4.614s] creating /home/paakwasi/ros2_ws/src/build/number_analyzer/build
+[4.616s] creating /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib
+[4.619s] creating /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer
+[4.619s] copying number_analyzer/analysis_server_node.py -> /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer
+[4.620s] copying number_analyzer/number_publisher_node.py -> /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer
+[4.620s] copying number_analyzer/__init__.py -> /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer
+[4.621s] copying number_analyzer/analysis_client_node.py -> /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer
+[4.621s] running install
+[4.621s] running install_lib
+[4.622s] creating /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer
+[4.622s] copying /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer/analysis_server_node.py -> /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer
+[4.622s] copying /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer/number_publisher_node.py -> /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer
+[4.623s] copying /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer/__init__.py -> /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer
+[4.623s] copying /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer/analysis_client_node.py -> /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer
+[4.626s] byte-compiling /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer/analysis_server_node.py to analysis_server_node.cpython-310.pyc
+[4.626s] byte-compiling /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer/number_publisher_node.py to number_publisher_node.cpython-310.pyc
+[4.627s] byte-compiling /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer/__init__.py to __init__.cpython-310.pyc
+[4.635s] byte-compiling /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer/analysis_client_node.py to analysis_client_node.cpython-310.pyc
+[4.636s] running install_data
+[4.637s] creating /home/paakwasi/ros2_ws/src/install/number_analyzer/share/ament_index
+[4.637s] creating /home/paakwasi/ros2_ws/src/install/number_analyzer/share/ament_index/resource_index
+[4.637s] creating /home/paakwasi/ros2_ws/src/install/number_analyzer/share/ament_index/resource_index/packages
+[4.637s] copying resource/number_analyzer -> /home/paakwasi/ros2_ws/src/install/number_analyzer/share/ament_index/resource_index/packages
+[4.638s] copying package.xml -> /home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer
+[4.638s] running install_egg_info
+[4.644s] Copying ../build/number_analyzer/number_analyzer.egg-info to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer-0.0.0-py3.10.egg-info
+[4.644s] running install_scripts
+[4.728s] Installing client script to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/number_analyzer
+[4.728s] Installing publisher script to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/number_analyzer
+[4.728s] Installing server script to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/number_analyzer
+[4.729s] writing list of installed files to '/home/paakwasi/ros2_ws/src/build/number_analyzer/install.log'
+[4.876s] Invoked command in '/home/paakwasi/ros2_ws/src/number_analyzer' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/src/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/src/build/number_analyzer/install.log --single-version-externally-managed install_data
