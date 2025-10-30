@@ -1,0 +1,335 @@
+[0.136s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.136s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7444a4621db0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7444a47e7670>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7444a47e7670>>)
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.321s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/paakwasi/ros2_ws/src'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(Custom_interface) by extension 'ros'
+[0.339s] DEBUG:colcon.colcon_core.package_identification:Package 'Custom_interface' with type 'ros.ament_cmake' and name 'first_custom_interface'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_controller' with type 'ros.ament_python' and name 'my_robot_controller'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(number_analyzer) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'number_analyzer' with type 'ros.ament_python' and name 'number_analyzer'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(temp_monitoring) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'temp_monitoring' with type 'ros.ament_python' and name 'temp_monitoring'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_robot) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_robot' with type 'ros.ament_python' and name 'turtle_robot'
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/paakwasi/ros2_ws/install
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 279 installed packages in /opt/ros/humble
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'first_custom_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'first_custom_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paakwasi/ros2_ws/src/build/first_custom_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paakwasi/ros2_ws/src/install/first_custom_interface', 'merge_install': False, 'path': '/home/paakwasi/ros2_ws/src/Custom_interface', 'symlink_install': False, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'my_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paakwasi/ros2_ws/src/build/my_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paakwasi/ros2_ws/src/install/my_robot_controller', 'merge_install': False, 'path': '/home/paakwasi/ros2_ws/src/my_robot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'number_analyzer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'number_analyzer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paakwasi/ros2_ws/src/build/number_analyzer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paakwasi/ros2_ws/src/install/number_analyzer', 'merge_install': False, 'path': '/home/paakwasi/ros2_ws/src/number_analyzer', 'symlink_install': False, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'temp_monitoring' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'temp_monitoring' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paakwasi/ros2_ws/src/build/temp_monitoring', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paakwasi/ros2_ws/src/install/temp_monitoring', 'merge_install': False, 'path': '/home/paakwasi/ros2_ws/src/temp_monitoring', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'turtle_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/paakwasi/ros2_ws/src/build/turtle_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/paakwasi/ros2_ws/src/install/turtle_robot', 'merge_install': False, 'path': '/home/paakwasi/ros2_ws/src/turtle_robot', 'symlink_install': False, 'test_result_base': None}
+[0.433s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/paakwasi/ros2_ws/src/Custom_interface' with build type 'ament_cmake'
+[0.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/paakwasi/ros2_ws/src/Custom_interface'
+[0.437s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paakwasi/ros2_ws/src/my_robot_controller' with build type 'ament_python'
+[0.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'ament_prefix_path')
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.dsv'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/ament_prefix_path.sh'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.450s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paakwasi/ros2_ws/src/number_analyzer' with build type 'ament_python'
+[0.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('number_analyzer', 'ament_prefix_path')
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/hook/ament_prefix_path.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/hook/ament_prefix_path.dsv'
+[0.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/hook/ament_prefix_path.sh'
+[0.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paakwasi/ros2_ws/src/temp_monitoring' with build type 'ament_python'
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('temp_monitoring', 'ament_prefix_path')
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/hook/ament_prefix_path.dsv'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/hook/ament_prefix_path.sh'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/paakwasi/ros2_ws/src/turtle_robot' with build type 'ament_python'
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_robot', 'ament_prefix_path')
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/hook/ament_prefix_path.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/hook/ament_prefix_path.dsv'
+[0.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/hook/ament_prefix_path.sh'
+[0.483s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.483s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/turtle_robot:/home/paakwasi/ros2_ws/install/temp_sensor:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/smart_home:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/paakwasi/ros2_ws/src/build/first_custom_interface -- -j12 -l12
+[1.226s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paakwasi/ros2_ws/src/my_robot_controller'
+[1.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.798s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paakwasi/ros2_ws/src/number_analyzer'
+[1.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paakwasi/ros2_ws/src/temp_monitoring'
+[2.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.994s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/paakwasi/ros2_ws/src/turtle_robot'
+[2.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.995s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paakwasi/ros2_ws/src/temp_monitoring': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/src/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/src/build/temp_monitoring/install.log --single-version-externally-managed install_data
+[4.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paakwasi/ros2_ws/src/turtle_robot': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/turtle_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/turtle_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_robot build --build-base /home/paakwasi/ros2_ws/src/build/turtle_robot/build install --record /home/paakwasi/ros2_ws/src/build/turtle_robot/install.log --single-version-externally-managed install_data
+[4.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paakwasi/ros2_ws/src/number_analyzer': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/src/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/src/build/number_analyzer/install.log --single-version-externally-managed install_data
+[4.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paakwasi/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/src/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[4.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/turtle_robot:/home/paakwasi/ros2_ws/install/temp_sensor:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/smart_home:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/paakwasi/ros2_ws/src/build/first_custom_interface -- -j12 -l12
+[4.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/turtle_robot:/home/paakwasi/ros2_ws/install/temp_sensor:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/smart_home:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/paakwasi/ros2_ws/src/build/first_custom_interface
+[4.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_custom_interface)
+[4.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paakwasi/ros2_ws/src/build/first_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/paakwasi/ros2_ws/install/turtle_robot:/home/paakwasi/ros2_ws/install/temp_sensor:/home/paakwasi/ros2_ws/install/temp_monitoring:/home/paakwasi/ros2_ws/install/smart_home:/home/paakwasi/ros2_ws/install/number_analyzer:/home/paakwasi/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/paakwasi/ros2_ws/src/build/first_custom_interface
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface' for CMake module files
+[4.552s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface' for CMake config files
+[4.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_custom_interface', 'cmake_prefix_path')
+[4.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/cmake_prefix_path.ps1'
+[4.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/cmake_prefix_path.dsv'
+[4.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/cmake_prefix_path.sh'
+[4.558s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/lib'
+[4.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_custom_interface', 'ld_library_path_lib')
+[4.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/ld_library_path_lib.ps1'
+[4.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/ld_library_path_lib.dsv'
+[4.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/ld_library_path_lib.sh'
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/bin'
+[4.563s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/lib/pkgconfig/first_custom_interface.pc'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/lib/python3.10/site-packages'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/bin'
+[4.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.ps1'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.dsv'
+[4.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.sh'
+[4.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.bash'
+[4.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.zsh'
+[4.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/colcon-core/packages/first_custom_interface)
+[4.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_custom_interface)
+[4.583s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface' for CMake module files
+[4.586s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface' for CMake config files
+[4.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_custom_interface', 'cmake_prefix_path')
+[4.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/cmake_prefix_path.ps1'
+[4.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/cmake_prefix_path.dsv'
+[4.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/cmake_prefix_path.sh'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/lib'
+[4.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_custom_interface', 'ld_library_path_lib')
+[4.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/ld_library_path_lib.ps1'
+[4.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/ld_library_path_lib.dsv'
+[4.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/hook/ld_library_path_lib.sh'
+[4.601s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/bin'
+[4.602s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/lib/pkgconfig/first_custom_interface.pc'
+[4.603s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/lib/python3.10/site-packages'
+[4.604s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/first_custom_interface/bin'
+[4.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.ps1'
+[4.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.dsv'
+[4.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.sh'
+[4.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.bash'
+[4.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/first_custom_interface/package.zsh'
+[4.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paakwasi/ros2_ws/src/install/first_custom_interface/share/colcon-core/packages/first_custom_interface)
+[5.028s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/turtle_robot' for CMake module files
+[5.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paakwasi/ros2_ws/src/turtle_robot' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/turtle_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/turtle_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtle_robot build --build-base /home/paakwasi/ros2_ws/src/build/turtle_robot/build install --record /home/paakwasi/ros2_ws/src/build/turtle_robot/install.log --single-version-externally-managed install_data
+[5.031s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/turtle_robot' for CMake config files
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/turtle_robot/lib'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/turtle_robot/bin'
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/turtle_robot/lib/pkgconfig/turtle_robot.pc'
+[5.035s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/turtle_robot/lib/python3.10/site-packages'
+[5.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_robot', 'pythonpath')
+[5.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/hook/pythonpath.ps1'
+[5.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/hook/pythonpath.dsv'
+[5.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/hook/pythonpath.sh'
+[5.042s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/turtle_robot/bin'
+[5.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_robot)
+[5.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/package.ps1'
+[5.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/package.dsv'
+[5.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/package.sh'
+[5.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/package.bash'
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/turtle_robot/share/turtle_robot/package.zsh'
+[5.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paakwasi/ros2_ws/src/install/turtle_robot/share/colcon-core/packages/turtle_robot)
+[5.065s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/temp_monitoring' for CMake module files
+[5.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paakwasi/ros2_ws/src/temp_monitoring' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/temp_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temp_monitoring build --build-base /home/paakwasi/ros2_ws/src/build/temp_monitoring/build install --record /home/paakwasi/ros2_ws/src/build/temp_monitoring/install.log --single-version-externally-managed install_data
+[5.069s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/temp_monitoring' for CMake config files
+[5.070s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/temp_monitoring/lib'
+[5.070s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/temp_monitoring/bin'
+[5.070s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/pkgconfig/temp_monitoring.pc'
+[5.071s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/temp_monitoring/lib/python3.10/site-packages'
+[5.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('temp_monitoring', 'pythonpath')
+[5.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/hook/pythonpath.ps1'
+[5.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/hook/pythonpath.dsv'
+[5.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/hook/pythonpath.sh'
+[5.077s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/temp_monitoring/bin'
+[5.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(temp_monitoring)
+[5.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/package.ps1'
+[5.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/package.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/package.sh'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/package.bash'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/temp_monitoring/package.zsh'
+[5.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paakwasi/ros2_ws/src/install/temp_monitoring/share/colcon-core/packages/temp_monitoring)
+[5.313s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/number_analyzer' for CMake module files
+[5.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paakwasi/ros2_ws/src/number_analyzer' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/src/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/src/build/number_analyzer/install.log --single-version-externally-managed install_data
+[5.317s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/number_analyzer' for CMake config files
+[5.319s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/number_analyzer/lib'
+[5.320s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/number_analyzer/bin'
+[5.320s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/pkgconfig/number_analyzer.pc'
+[5.321s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages'
+[5.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('number_analyzer', 'pythonpath')
+[5.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/hook/pythonpath.ps1'
+[5.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/hook/pythonpath.dsv'
+[5.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/hook/pythonpath.sh'
+[5.327s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/number_analyzer/bin'
+[5.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(number_analyzer)
+[5.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/package.ps1'
+[5.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/package.dsv'
+[5.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/package.sh'
+[5.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/package.bash'
+[5.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer/package.zsh'
+[5.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paakwasi/ros2_ws/src/install/number_analyzer/share/colcon-core/packages/number_analyzer)
+[5.338s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/my_robot_controller' for CMake module files
+[5.341s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/my_robot_controller' for CMake config files
+[5.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/paakwasi/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_robot_controller build --build-base /home/paakwasi/ros2_ws/src/build/my_robot_controller/build install --record /home/paakwasi/ros2_ws/src/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[5.344s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/my_robot_controller/lib'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/my_robot_controller/bin'
+[5.345s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/pkgconfig/my_robot_controller.pc'
+[5.346s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/my_robot_controller/lib/python3.10/site-packages'
+[5.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_controller', 'pythonpath')
+[5.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.ps1'
+[5.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.dsv'
+[5.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/hook/pythonpath.sh'
+[5.351s] Level 1:colcon.colcon_core.environment:checking '/home/paakwasi/ros2_ws/src/install/my_robot_controller/bin'
+[5.351s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_controller)
+[5.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.ps1'
+[5.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.dsv'
+[5.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.sh'
+[5.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.bash'
+[5.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller/package.zsh'
+[5.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/paakwasi/ros2_ws/src/install/my_robot_controller/share/colcon-core/packages/my_robot_controller)
+[5.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.359s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.373s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.403s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paakwasi/ros2_ws/src/install/local_setup.ps1'
+[5.407s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paakwasi/ros2_ws/src/install/_local_setup_util_ps1.py'
+[5.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paakwasi/ros2_ws/src/install/setup.ps1'
+[5.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paakwasi/ros2_ws/src/install/local_setup.sh'
+[5.420s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/paakwasi/ros2_ws/src/install/_local_setup_util_sh.py'
+[5.421s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paakwasi/ros2_ws/src/install/setup.sh'
+[5.426s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paakwasi/ros2_ws/src/install/local_setup.bash'
+[5.428s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paakwasi/ros2_ws/src/install/setup.bash'
+[5.433s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/paakwasi/ros2_ws/src/install/local_setup.zsh'
+[5.434s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/paakwasi/ros2_ws/src/install/setup.zsh'

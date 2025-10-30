@@ -1,0 +1,30 @@
+[3.841s] Invoking command in '/home/paakwasi/ros2_ws/src/number_analyzer': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/src/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/src/build/number_analyzer/install.log --single-version-externally-managed install_data
+[4.676s] running egg_info
+[4.678s] writing ../build/number_analyzer/number_analyzer.egg-info/PKG-INFO
+[4.678s] writing dependency_links to ../build/number_analyzer/number_analyzer.egg-info/dependency_links.txt
+[4.679s] writing entry points to ../build/number_analyzer/number_analyzer.egg-info/entry_points.txt
+[4.679s] writing requirements to ../build/number_analyzer/number_analyzer.egg-info/requires.txt
+[4.679s] writing top-level names to ../build/number_analyzer/number_analyzer.egg-info/top_level.txt
+[4.683s] reading manifest file '../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'
+[4.684s] writing manifest file '../build/number_analyzer/number_analyzer.egg-info/SOURCES.txt'
+[4.685s] running build
+[4.685s] running build_py
+[4.685s] copying number_analyzer/analysis_server_node.py -> /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer
+[4.686s] copying number_analyzer/analysis_client_node.py -> /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer
+[4.686s] running install
+[4.686s] running install_lib
+[4.690s] copying /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer/analysis_server_node.py -> /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer
+[4.691s] copying /home/paakwasi/ros2_ws/src/build/number_analyzer/build/lib/number_analyzer/analysis_client_node.py -> /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer
+[4.691s] byte-compiling /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer/analysis_server_node.py to analysis_server_node.cpython-310.pyc
+[4.692s] byte-compiling /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer/analysis_client_node.py to analysis_client_node.cpython-310.pyc
+[4.698s] running install_data
+[4.699s] copying package.xml -> /home/paakwasi/ros2_ws/src/install/number_analyzer/share/number_analyzer
+[4.699s] running install_egg_info
+[4.704s] removing '/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer-0.0.0-py3.10.egg-info' (and everything under it)
+[4.705s] Copying ../build/number_analyzer/number_analyzer.egg-info to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages/number_analyzer-0.0.0-py3.10.egg-info
+[4.708s] running install_scripts
+[4.777s] Installing client script to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/number_analyzer
+[4.778s] Installing publisher script to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/number_analyzer
+[4.778s] Installing server script to /home/paakwasi/ros2_ws/src/install/number_analyzer/lib/number_analyzer
+[4.780s] writing list of installed files to '/home/paakwasi/ros2_ws/src/build/number_analyzer/install.log'
+[4.865s] Invoked command in '/home/paakwasi/ros2_ws/src/number_analyzer' returned '0': PYTHONPATH=/home/paakwasi/ros2_ws/src/build/number_analyzer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paakwasi/ros2_ws/src/install/number_analyzer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_analyzer build --build-base /home/paakwasi/ros2_ws/src/build/number_analyzer/build install --record /home/paakwasi/ros2_ws/src/build/number_analyzer/install.log --single-version-externally-managed install_data

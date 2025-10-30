@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from Custom_interface.srv import AnalyzeNumber
+from number_analyzer.srv import AnalyzeNumber
 
 
 
