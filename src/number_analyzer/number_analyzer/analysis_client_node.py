@@ -3,7 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int32
-from Custom_interface.srv import AnalyzeNumber
+from number_analyzer.srv import AnalyzeNumber
 
 
 
